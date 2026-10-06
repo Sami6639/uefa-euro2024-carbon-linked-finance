@@ -1,0 +1,97 @@
+{
+  "design_version": "locked-2026-10-06-v1",
+  "interpretation": "Applied analytical contract-design framework; no causal or behavioral UEFA estimates.",
+  "reference_mean_tco2e": 316912.0,
+  "reference_mean_role": "Public ex-post inventory used only as a dimensional reference scale; not an ex-ante forecast.",
+  "benchmark_budget_eur": 7925000.0,
+  "common_slope_cap_eur_per_tco2e": 25.0,
+  "slope_cap_role": "Scenario design restriction applied commonly across contracts; not a legal cap.",
+  "source_anchor_status": "verified from data/headline_metrics.csv; exact equality checked",
+  "floor_fractions": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95,
+    0.99,
+    1.0
+  ],
+  "sd_reference_fractions": [
+    0.0,
+    0.025,
+    0.05,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "target_rate_fractions": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "gap_fractions": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "plot_floor_points": 501,
+  "plot_target_points": 201,
+  "lp_cells": [
+    25,
+    50,
+    100,
+    200,
+    400
+  ],
+  "lp_targets": [
+    0.1,
+    0.2,
+    0.37,
+    0.3713,
+    0.5,
+    0.75,
+    1
+  ],
+  "rounding_robustness_budget": "rate times reference_mean",
+  "uncertainty_status": "All noise amplitudes and distributions are assumption-led sensitivity scenarios, not estimates or confidence intervals.",
+  "randomness": "None; deterministic integration, root finding and linear programming.",
+  "zero_noise_equal_floor_convention": "Select constant payment B and slope zero; a kinked alternative has no two-sided local derivative at the reference point.",
+  "distribution_compare_floor_fractions": [
+    0.9,
+    0.95
+  ],
+  "plot_noise_points": 301,
+  "boundary_grid_note": "F/B=1 is a diagnostic endpoint added to the prespecified interior sensitivity grid, not a fitted or selected result.",
+  "zero_noise_feasibility_note": "At zero noise a positive two-sided marginal target requires H<B; the frontier value B is an unattained supremum.",
+  "source_anchor_ids": [
+    "uefa_fund_2025_01_20__final_emissions",
+    "uefa_fund_2025_01_20__final_fund",
+    "uefa_fund_2024_01_08__contribution_per_emitted_tonne"
+  ],
+  "source_headline_sha256": "0dc97f4a3552a39b9319f2475fb1d91601d863fc47d2f666970d774be359cd4b"
+}

@@ -1,0 +1,7 @@
+check,cases,maximum_error,unit,status
+Equal-budget calibration,156,4.842877388000488e-08,EUR,PASS
+Independent payment quadrature,156,3.725290298461914e-09,EUR,PASS
+Fixed-schedule numerical derivative,156,2.562881462608857e-09,EUR/tCO2e,PASS
+"LP frontier, 400 cells",7,1.5599999998727743e-06,normalized budget,PASS
+LP slope constraint,35,1.021405182655144e-14,normalized slope,PASS
+Arithmetic-budget sensitivity,78,0.00013618457124064953,fraction of cap,PASS

@@ -1,0 +1,73 @@
+{
+  "exact_identity_checks": "passed",
+  "activity_checks": [
+    {
+      "check": "table_13_rounded_activity_sum",
+      "reported_total": 1926.96,
+      "summed_components": 1926.96,
+      "delta": 0.0,
+      "unit": "million passenger-km",
+      "status": "exact_at_printed_precision",
+      "source_page": 35
+    },
+    {
+      "check": "table_14_rounded_activity_sum",
+      "reported_total": 640.31,
+      "summed_components": 640.3,
+      "delta": -0.01,
+      "unit": "million passenger-km",
+      "status": "compatible_with_rounding",
+      "source_page": 36
+    },
+    {
+      "check": "table_15_rounded_activity_sum",
+      "reported_total": 976.68,
+      "summed_components": 976.68,
+      "delta": 0.0,
+      "unit": "million passenger-km",
+      "status": "exact_at_printed_precision",
+      "source_page": 36
+    },
+    {
+      "check": "table_16_rounded_activity_sum",
+      "reported_total": 307.95,
+      "summed_components": 307.59,
+      "delta": -0.36,
+      "unit": "million passenger-km",
+      "status": "unresolved_internal_source_discrepancy",
+      "source_page": 37
+    },
+    {
+      "check": "table_17_rounded_activity_sum",
+      "reported_total": 3.24,
+      "summed_components": 3.24,
+      "delta": -0.0,
+      "unit": "million passenger-km",
+      "status": "exact_at_printed_precision",
+      "source_page": 38
+    },
+    {
+      "check": "table_18_rounded_activity_sum",
+      "reported_total": 3.67,
+      "summed_components": 3.67,
+      "delta": 0.0,
+      "unit": "million passenger-km",
+      "status": "exact_at_printed_precision",
+      "source_page": 38
+    }
+  ],
+  "source_discrepancies": "See source_reconciliation.csv. Differences are not corrected.",
+  "factor_completeness": "Absolute activity-to-factor matrix not available; differential factors only.",
+  "dataset_counts": {
+    "source_manifest.csv": 8,
+    "headline_metrics.csv": 67,
+    "dekra_emissions_components.csv": 58,
+    "dekra_restricted_boundary.csv": 7,
+    "transport_activity.csv": 47,
+    "transport_differential_factors.csv": 3,
+    "factor_provenance.csv": 9,
+    "exante_expost_inputs.csv": 38,
+    "timing_and_rules.csv": 22,
+    "source_reconciliation.csv": 15
+  }
+}

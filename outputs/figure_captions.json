@@ -1,0 +1,22 @@
+{
+  "figure1": {
+    "file": "figure1_floor_marginal_obligation",
+    "title": "Guaranteed funding and marginal obligation.",
+    "note": "Uniform hypothetical report noise; sigma/e* denotes an assumed standard deviation. B=EUR 7.925m, p=EUR 25/tCO2e. At zero noise and F=B, the selected constant contract has m=0; the upper endpoint is open."
+  },
+  "figure2": {
+    "file": "figure2_liquidity_feasibility",
+    "title": "Upfront financing and required marginal obligation.",
+    "note": "Uniform hypothetical noise with the same benchmark budget and cap. Financing gaps are assumed bankable and payable from the floor before verification. At zero noise, g=B is excluded for any positive target."
+  },
+  "figure3": {
+    "file": "figure3_distribution_sensitivity",
+    "title": "Distribution-dependent marginal obligations.",
+    "note": "Hypothetical uniform and Gaussian errors have equal variance at each sigma/e*; each schedule is calibrated to the same expected budget. Gaussian reporting is a signed-error sensitivity, with a negative-report tail."
+  },
+  "figure4": {
+    "file": "figure4_noise_counterexample",
+    "title": "A mean-preserving spread can raise the marginal obligation.",
+    "note": "Dimensionless counterexample, not event data. Adding an independent symmetric unit noise raises variance from 1 to 2 and the local expected slope from 0.50 to 0.75; expected payment remains 0.80 and p=1."
+  }
+}

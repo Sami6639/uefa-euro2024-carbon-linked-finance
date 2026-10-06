@@ -1,0 +1,6 @@
+scenario,report,probability,payment,marginal_slope
+baseline,-1.0,0.5,0.0,0.0
+baseline,1.0,0.5,1.5999999999998633,1.0
+independent_noise_added,-2.0,0.25,0.0,0.0
+independent_noise_added,0.0,0.5,0.4,1.0
+independent_noise_added,2.0,0.25,2.4,1.0

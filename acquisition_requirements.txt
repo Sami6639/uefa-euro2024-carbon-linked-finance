@@ -1,0 +1,6 @@
+-r requirements.txt
+pypdf==6.10.0
+lxml==6.1.1
+PyMuPDF==1.26.6
+# External CLI dependency, not installable through pip: Poppler pdftotext 25.03.0.
+# Use environment-acquisition.yml to include it.

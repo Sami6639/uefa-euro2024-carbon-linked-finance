@@ -1,0 +1,67 @@
+% Canonical mathematical specification; the manuscript may select and renumber.
+% Units: Y,e,e*,epsilon,d,sigma,K: tCO2e; T,B,F,H,k,w,V: EUR;
+% p,m,q: EUR/tCO2e; kappa dimensionless. T is precommitted.
+\[
+Y=e+\varepsilon,\qquad \mathbb{E}[\varepsilon]=0,\qquad
+\varepsilon\sim\mathcal{U}[-d,d],\quad d=\sqrt{3}\sigma>0.
+\tag{1}
+\]
+\[
+T(y)\geq F\geq0,\qquad 0\leq T'(y)\leq p,\qquad
+\mathbb{E}_{e=e^{*}}[T(Y)]=B,\quad p>0.
+\tag{2}
+\]
+% T is absolutely continuous on a neighborhood of all locally shifted supports.
+\[
+m=\left.\frac{\partial}{\partial e}\mathbb{E}[T(e+\varepsilon)]\right|_{e=e^{*}}
+=\mathbb{E}[T'(e^{*}+\varepsilon)].
+\tag{3}
+\]
+\[
+T(y)=F+p(y-K)_{+},\qquad C=B-F.
+\tag{4}
+\]
+\[
+K=\begin{cases}
+e^{*}+d-2\sqrt{dC/p},&0<C<pd,\\
+e^{*}-C/p,&C\geq pd,
+\end{cases}\qquad
+m=\min\!\left\{p,\sqrt{\frac{pC}{d}}\right\}.
+\tag{5}
+\]
+% For C=0 the implementation selects T=B with m=0.
+\[
+\mathbb{E}[T(Y)]-F
+\geq\frac{1}{2d}\int_{e^{*}-d}^{e^{*}+d}(e^{*}+d-t)T'(t)\,dt
+\geq\frac{dm^{2}}{p}.
+\tag{6}
+\]
+\[
+B\geq F+\frac{dm^{2}}{p}.
+\tag{7}
+\]
+\[
+H=(k-w)_{+},\quad q\in[0,p],\quad\exists T:\;\mathbb{E}[T]\leq B,\;F\geq H,\;m\geq q
+\quad\Longleftrightarrow\quad B\geq H+\frac{dq^{2}}{p}.
+\tag{8}
+\]
+% Eq.(8): existence with expected payment AT MOST B and d>0. Guaranteed
+% funding is assumed bankable and released before verification.
+% At d=0,q>0 the correct condition is B>H; equality is not attained.
+\[
+B_{\mathrm{total}}\geq(1+\kappa)H+V+\frac{dq^{2}}{p}.
+\tag{9}
+\]
+% Conditional extension, kappa,V >= 0; neither cost is empirically estimated.
+\[
+C=p\sigma\{\phi(z)+z\Phi(z)\},\qquad
+m=p\Phi(z),\qquad z=\frac{e^{*}-K}{\sigma}.
+\tag{10}
+\]
+% Eq.(10): Gaussian signed-error sensitivity, sigma>0 and C>0.
+\[
+T_{A}(y)=B+p(y-e^{*}),\qquad \min_{y\in[e^{*}-d,e^{*}+d]}T_A(y)=B-pd.
+\tag{11}
+\]
+% Equal-budget affine comparator on the uniform reference support; not an
+% observed UEFA payment rule and not necessarily feasible for a selected F.

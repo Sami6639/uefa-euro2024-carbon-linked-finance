@@ -1,0 +1,7 @@
+{
+  "floor_fraction": 0.95,
+  "sd_reference_fraction": 0.1,
+  "fixed_precommitted_threshold_derivative": 13.43398893205449,
+  "incorrect_recalibrated_each_state_derivative": 0.0,
+  "interpretation": "Physical mean perturbations must hold the schedule fixed."
+}

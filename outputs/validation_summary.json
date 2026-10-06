@@ -1,0 +1,23 @@
+{
+  "design_status": "LOCKED; sources checked and deterministic validation passed",
+  "main_scenario_contract_rows": 156,
+  "dense_contract_plot_rows": 6012,
+  "liquidity_grid_rows": 504,
+  "lp_validation_rows": 35,
+  "independent_quadrature_rows": 156,
+  "max_absolute_quadrature_error_eur": 3.725290298461914e-09,
+  "max_absolute_budget_error_eur": 4.842877388000488e-08,
+  "max_absolute_marginal_finite_difference_error": 2.562881462608857e-09,
+  "max_lp_mean_slope_error": 1.021405182655144e-14,
+  "max_lp_excess_error_400_cells": 1.5599999998727743e-06,
+  "max_rounding_budget_marginal_fraction_change": 0.00013618457124064953,
+  "gaussian_max_negative_report_probability": 0.0004290603331968372,
+  "positive_noise_gaussian_rows_rounded_to_full_cap": 16,
+  "gaussian_float_precision_caveat": "Some positive-noise Gaussian probabilities round to one in float64; exact full-cap m=p remains unattainable at finite discretionary budget and sigma>0.",
+  "zero_noise_equal_floor_convention": "Select constant payment B and slope zero; a kinked alternative has no two-sided local derivative at the reference point.",
+  "zero_noise_feasibility_caveat": "For any positive two-sided marginal target and zero noise, the financing gap H must be strictly below budget. The budget frontier is an infimum, not attained at F=B.",
+  "scenario_scope": "All distributions and standard deviations are assumed sensitivities. No UEFA or DEKRA difference estimates report noise.",
+  "behavioral_scope": "m is local expected marginal contractual funding obligation. Behavior requires binding precommitment internalized by the decision-maker.",
+  "frontier_scope": "Mean-budget minimum within absolutely continuous monotone capped-slope contracts, not a variance optimum.",
+  "gaussian_scope": "Signed report-error sensitivity; a Gaussian report has a negative tail and is not an emissions inventory model."
+}

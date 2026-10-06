@@ -1,0 +1,156 @@
+dataset,field,description
+source_manifest.csv,*,"One row per preserved official source, with SHA-256 and provenance. PDF dates are metadata, not publication dates."
+headline_metrics.csv,*,One row per metric and source version. Never sum across versions. Emissions are ex-post estimates; administrative counts are source reports.
+dekra_emissions_components.csv,*,"One row per appendix category/component/total. Sum category_total rows only for category comparison, not category totals plus components."
+dekra_restricted_boundary.csv,*,"One row per Table19 category plus total, with source precision, distinct from both UEFA and the full DEKRA boundary."
+transport_activity.csv,*,"One row per DEKRA transport mode, population, travel scope and table; reported_activity_million_pkm is source precision. activity_pkm is a unit conversion; missing walking/cycling values stay blank."
+transport_differential_factors.csv,*,Published emission-factor differences for shifts to rail; negative means reduced emissions. Not absolute emission factors.
+factor_provenance.csv,*,Source-disclosed activity and emission-factor families by category; numeric factors are not supplied or reverse-engineered.
+exante_expost_inputs.csv,*,Long-form Table12 input comparison. Ex-post does not establish a purely observed value; surveys and estimates are mixed.
+timing_and_rules.csv,*,"One source-backed timing rule, methodological convention or grant rule per row."
+source_reconciliation.csv,*,"Discrepancies and scope/concept differences, retained rather than forced to match."
+source_manifest.csv,source_id,Join key to source_manifest.csv and source_catalog.json.
+source_manifest.csv,title,Official document or webpage title.
+source_manifest.csv,author,Institutional or named authors as printed in the source.
+source_manifest.csv,source_date,Visible report cover/article date; blank when unavailable. Not a guaranteed first-publication date.
+source_manifest.csv,source_year,"Year attached to the source, separate from event year; blank when undated."
+source_manifest.csv,url,Canonical official source URL in catalog/manifest.
+source_manifest.csv,extension,Raw source file type: pdf or html.
+source_manifest.csv,version_notes,Source-version details and dating limits.
+source_manifest.csv,raw_relative_path,Path to preserved source bytes relative to the package root.
+source_manifest.csv,retrieved_date_utc,"Archive acquisition date, UTC. Archived bytes and hashes fix the reviewed source version."
+source_manifest.csv,retrieved_at_utc,Exact timestamp where recorded by acquisition; blank when only retrieval date was preserved.
+source_manifest.csv,retrieval_time_precision,exact when acquisition receipt has a timestamp; date_only for initial curl PDF downloads.
+source_manifest.csv,bytes,Exact byte length of the locally preserved raw source.
+source_manifest.csv,sha256,SHA-256 hexadecimal checksum of the preserved bytes.
+source_manifest.csv,status,"Source-acquisition or discrepancy classification, depending on dataset."
+source_manifest.csv,pdf_pages,PDF physical page count.
+source_manifest.csv,pdf_creation_date,Raw PDF /CreationDate metadata; not first-publication date.
+source_manifest.csv,pdf_modification_date,Raw PDF /ModDate metadata; may reveal later file versions.
+headline_metrics.csv,metric_id,Unique source-version and metric key.
+headline_metrics.csv,metric,Stable English identifier for the reported metric.
+headline_metrics.csv,value,"Numeric reported or explicitly labelled derived value; interpret with unit, scope and observation_status."
+headline_metrics.csv,unit,Measurement unit; EUR are nominal euros without inflation adjustment. tCO2e are metric tonnes CO2-equivalent.
+headline_metrics.csv,event_year,"Year of EURO event, 2024, independent of source/report/announcement year."
+headline_metrics.csv,scope,Accounting boundary or source-specific population. Not synonymous with GHG Protocol Scope 1/2/3.
+headline_metrics.csv,observation_status,"Distinguishes administrative reports, estimates, announced budgets, rules, hypothetical values and derived arithmetic."
+headline_metrics.csv,value_qualifier,Source precision/qualification; no extra precision inferred.
+headline_metrics.csv,notes,"Caveats, source wording differences, missingness or interpretation limits."
+headline_metrics.csv,source_id,Join key to source_manifest.csv and source_catalog.json.
+headline_metrics.csv,source_date,Visible report cover/article date; blank when unavailable. Not a guaranteed first-publication date.
+headline_metrics.csv,retrieved_date_utc,"Archive acquisition date, UTC. Archived bytes and hashes fix the reviewed source version."
+headline_metrics.csv,source_url,Official URL supporting the row; join to manifest for bytes and hashes.
+headline_metrics.csv,source_pdf_page,One-based PDF physical page; printed pages coincide for the extracted tables.
+headline_metrics.csv,source_locator,"Table, section or nearby paragraph for verification."
+dekra_emissions_components.csv,component_id,Unique DEKRA appendix record identifier.
+dekra_emissions_components.csv,category,"Source inventory category, translated into an English label or stable identifier."
+dekra_emissions_components.csv,item,English description of the source inventory component.
+dekra_emissions_components.csv,emissions_tco2e,"Source-reported emissions, in metric tonnes of CO2-equivalent, retaining printed precision."
+dekra_emissions_components.csv,reported_share_percent,Source-printed share in percent; not recomputed from rounded rows.
+dekra_emissions_components.csv,row_type,component/category_total/grand_total or component/total. Prevents double counting.
+dekra_emissions_components.csv,event_year,"Year of EURO event, 2024, independent of source/report/announcement year."
+dekra_emissions_components.csv,unit,Measurement unit; EUR are nominal euros without inflation adjustment. tCO2e are metric tonnes CO2-equivalent.
+dekra_emissions_components.csv,observation_status,"Distinguishes administrative reports, estimates, announced budgets, rules, hypothetical values and derived arithmetic."
+dekra_emissions_components.csv,notes,"Caveats, source wording differences, missingness or interpretation limits."
+dekra_emissions_components.csv,source_id,Join key to source_manifest.csv and source_catalog.json.
+dekra_emissions_components.csv,source_date,Visible report cover/article date; blank when unavailable. Not a guaranteed first-publication date.
+dekra_emissions_components.csv,retrieved_date_utc,"Archive acquisition date, UTC. Archived bytes and hashes fix the reviewed source version."
+dekra_emissions_components.csv,source_url,Official URL supporting the row; join to manifest for bytes and hashes.
+dekra_emissions_components.csv,source_pdf_page,One-based PDF physical page; printed pages coincide for the extracted tables.
+dekra_emissions_components.csv,source_locator,"Table, section or nearby paragraph for verification."
+dekra_restricted_boundary.csv,category,"Source inventory category, translated into an English label or stable identifier."
+dekra_restricted_boundary.csv,emissions_tco2e,"Source-reported emissions, in metric tonnes of CO2-equivalent, retaining printed precision."
+dekra_restricted_boundary.csv,reported_share_percent,Source-printed share in percent; not recomputed from rounded rows.
+dekra_restricted_boundary.csv,row_type,component/category_total/grand_total or component/total. Prevents double counting.
+dekra_restricted_boundary.csv,unit,Measurement unit; EUR are nominal euros without inflation adjustment. tCO2e are metric tonnes CO2-equivalent.
+dekra_restricted_boundary.csv,event_year,"Year of EURO event, 2024, independent of source/report/announcement year."
+dekra_restricted_boundary.csv,observation_status,"Distinguishes administrative reports, estimates, announced budgets, rules, hypothetical values and derived arithmetic."
+dekra_restricted_boundary.csv,notes,"Caveats, source wording differences, missingness or interpretation limits."
+dekra_restricted_boundary.csv,source_id,Join key to source_manifest.csv and source_catalog.json.
+dekra_restricted_boundary.csv,source_date,Visible report cover/article date; blank when unavailable. Not a guaranteed first-publication date.
+dekra_restricted_boundary.csv,retrieved_date_utc,"Archive acquisition date, UTC. Archived bytes and hashes fix the reviewed source version."
+dekra_restricted_boundary.csv,source_url,Official URL supporting the row; join to manifest for bytes and hashes.
+dekra_restricted_boundary.csv,source_pdf_page,One-based PDF physical page; printed pages coincide for the extracted tables.
+dekra_restricted_boundary.csv,source_locator,"Table, section or nearby paragraph for verification."
+transport_activity.csv,activity_id,Unique transport record identifier combining source table and mode.
+transport_activity.csv,population,"Ticket holders, fan-zone visitors or national teams in DEKRA travel tables."
+transport_activity.csv,travel_scope,International versus national travel as defined by the source table and footnotes.
+transport_activity.csv,mode,Stable transport-mode identifier; total marks the printed table total.
+transport_activity.csv,source_mode_label,"Original German table label, retained for auditability."
+transport_activity.csv,reported_activity_million_pkm,"Direct transcription of printed distance, million passenger-km; including explicitly labelled missing-data zero placeholders."
+transport_activity.csv,activity_pkm,"Converted passenger-km. Blank means unavailable, including source placeholder zeros accompanied by missing-data footnotes."
+transport_activity.csv,reported_share_percent,Source-printed share in percent; not recomputed from rounded rows.
+transport_activity.csv,source_unit,Unit printed in the source before any explicit conversion.
+transport_activity.csv,unit,Measurement unit; EUR are nominal euros without inflation adjustment. tCO2e are metric tonnes CO2-equivalent.
+transport_activity.csv,event_year,"Year of EURO event, 2024, independent of source/report/announcement year."
+transport_activity.csv,row_type,component/category_total/grand_total or component/total. Prevents double counting.
+transport_activity.csv,observation_status,"Distinguishes administrative reports, estimates, announced budgets, rules, hypothetical values and derived arithmetic."
+transport_activity.csv,absolute_emission_factor,Always blank: no complete matching factor matrix disclosed in the reviewed activity tables.
+transport_activity.csv,absolute_factor_status,Disclosure status for the missing absolute factor; blank values must not be interpreted as zero.
+transport_activity.csv,notes,"Caveats, source wording differences, missingness or interpretation limits."
+transport_activity.csv,source_id,Join key to source_manifest.csv and source_catalog.json.
+transport_activity.csv,source_date,Visible report cover/article date; blank when unavailable. Not a guaranteed first-publication date.
+transport_activity.csv,retrieved_date_utc,"Archive acquisition date, UTC. Archived bytes and hashes fix the reviewed source version."
+transport_activity.csv,source_url,Official URL supporting the row; join to manifest for bytes and hashes.
+transport_activity.csv,source_pdf_page,One-based PDF physical page; printed pages coincide for the extracted tables.
+transport_activity.csv,source_locator,"Table, section or nearby paragraph for verification."
+transport_differential_factors.csv,factor_id,Unique published modal-shift differential identifier.
+transport_differential_factors.csv,from_mode,Original mode in the source modal-shift comparison.
+transport_differential_factors.csv,to_mode,"Replacement mode in source comparison, long-distance rail."
+transport_differential_factors.csv,factor_value,Signed published differential; negative means fewer emissions after the hypothetical modal shift.
+transport_differential_factors.csv,factor_unit,"Unit of the published differential, gCO2e per passenger-km."
+transport_differential_factors.csv,factor_kind,"Here difference_new_minus_old, not an absolute mode factor."
+transport_differential_factors.csv,absolute_factor_available,False: an absolute mode-specific numeric factor is not supplied in this table.
+transport_differential_factors.csv,activity_year,Year of activity to which the source factor/differential applies.
+transport_differential_factors.csv,observation_status,"Distinguishes administrative reports, estimates, announced budgets, rules, hypothetical values and derived arithmetic."
+transport_differential_factors.csv,notes,"Caveats, source wording differences, missingness or interpretation limits."
+transport_differential_factors.csv,source_id,Join key to source_manifest.csv and source_catalog.json.
+transport_differential_factors.csv,source_date,Visible report cover/article date; blank when unavailable. Not a guaranteed first-publication date.
+transport_differential_factors.csv,retrieved_date_utc,"Archive acquisition date, UTC. Archived bytes and hashes fix the reviewed source version."
+transport_differential_factors.csv,source_url,Official URL supporting the row; join to manifest for bytes and hashes.
+transport_differential_factors.csv,source_pdf_page,One-based PDF physical page; printed pages coincide for the extracted tables.
+transport_differential_factors.csv,source_locator,"Table, section or nearby paragraph for verification."
+factor_provenance.csv,category,"Source inventory category, translated into an English label or stable identifier."
+factor_provenance.csv,activity_basis,Source description of quantities used with emission factors; not a promise that all quantities are public.
+factor_provenance.csv,factor_source_family,Source-disclosed database or institution providing emission factors.
+factor_provenance.csv,reported_factor_version,Database edition/year stated by the report; mixed/undated if the report does not specify.
+factor_provenance.csv,numeric_factor_available,"False: this record identifies provenance, not a complete numeric factor mapping."
+factor_provenance.csv,observation_status,"Distinguishes administrative reports, estimates, announced budgets, rules, hypothetical values and derived arithmetic."
+factor_provenance.csv,notes,"Caveats, source wording differences, missingness or interpretation limits."
+factor_provenance.csv,source_id,Join key to source_manifest.csv and source_catalog.json.
+factor_provenance.csv,source_date,Visible report cover/article date; blank when unavailable. Not a guaranteed first-publication date.
+factor_provenance.csv,retrieved_date_utc,"Archive acquisition date, UTC. Archived bytes and hashes fix the reviewed source version."
+factor_provenance.csv,source_url,Official URL supporting the row; join to manifest for bytes and hashes.
+factor_provenance.csv,source_pdf_page,One-based PDF physical page; printed pages coincide for the extracted tables.
+factor_provenance.csv,source_locator,"Table, section or nearby paragraph for verification."
+exante_expost_inputs.csv,input_id,Unique Table12 input/version identifier.
+exante_expost_inputs.csv,metric,Stable English identifier for the reported metric.
+exante_expost_inputs.csv,version,Ex-ante or ex-post column of DEKRA Table12.
+exante_expost_inputs.csv,value,"Numeric reported or explicitly labelled derived value; interpret with unit, scope and observation_status."
+exante_expost_inputs.csv,unit,Measurement unit; EUR are nominal euros without inflation adjustment. tCO2e are metric tonnes CO2-equivalent.
+exante_expost_inputs.csv,event_year,"Year of EURO event, 2024, independent of source/report/announcement year."
+exante_expost_inputs.csv,observation_status,"Distinguishes administrative reports, estimates, announced budgets, rules, hypothetical values and derived arithmetic."
+exante_expost_inputs.csv,notes,"Caveats, source wording differences, missingness or interpretation limits."
+exante_expost_inputs.csv,source_id,Join key to source_manifest.csv and source_catalog.json.
+exante_expost_inputs.csv,source_date,Visible report cover/article date; blank when unavailable. Not a guaranteed first-publication date.
+exante_expost_inputs.csv,retrieved_date_utc,"Archive acquisition date, UTC. Archived bytes and hashes fix the reviewed source version."
+exante_expost_inputs.csv,source_url,Official URL supporting the row; join to manifest for bytes and hashes.
+exante_expost_inputs.csv,source_pdf_page,One-based PDF physical page; printed pages coincide for the extracted tables.
+exante_expost_inputs.csv,source_locator,"Table, section or nearby paragraph for verification."
+timing_and_rules.csv,rule_id,Unique timing/rule identifier.
+timing_and_rules.csv,reported_value,Source-backed text or date for a rule or timeline item.
+timing_and_rules.csv,notes,"Caveats, source wording differences, missingness or interpretation limits."
+timing_and_rules.csv,source_id,Join key to source_manifest.csv and source_catalog.json.
+timing_and_rules.csv,source_date,Visible report cover/article date; blank when unavailable. Not a guaranteed first-publication date.
+timing_and_rules.csv,retrieved_date_utc,"Archive acquisition date, UTC. Archived bytes and hashes fix the reviewed source version."
+timing_and_rules.csv,source_url,Official URL supporting the row; join to manifest for bytes and hashes.
+timing_and_rules.csv,source_pdf_page,One-based PDF physical page; printed pages coincide for the extracted tables.
+timing_and_rules.csv,source_locator,"Table, section or nearby paragraph for verification."
+source_reconciliation.csv,check_id,Unique reconciliation diagnostic identifier.
+source_reconciliation.csv,left_value,First source value or explicitly identified arithmetic calculation in a reconciliation.
+source_reconciliation.csv,right_value,Second source value in a reconciliation.
+source_reconciliation.csv,difference_left_minus_right,"Simple diagnostic arithmetic, not a model output or inferred causal effect."
+source_reconciliation.csv,unit,Measurement unit; EUR are nominal euros without inflation adjustment. tCO2e are metric tonnes CO2-equivalent.
+source_reconciliation.csv,status,"Source-acquisition or discrepancy classification, depending on dataset."
+source_reconciliation.csv,interpretation,Scope-controlled explanation of a source discrepancy or conceptual difference.
+source_reconciliation.csv,source_locator,"Table, section or nearby paragraph for verification."

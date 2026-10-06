@@ -1,0 +1,17 @@
+test_all_in_extension (test_contracts.TestContracts.test_all_in_extension) ... ok
+test_fixed_not_moving_calibration (test_contracts.TestContracts.test_fixed_not_moving_calibration) ... ok
+test_gaussian_budget_and_slope (test_contracts.TestContracts.test_gaussian_budget_and_slope) ... ok
+test_invalid_budget (test_contracts.TestContracts.test_invalid_budget) ... ok
+test_lp_frontier_and_convergence (test_contracts.TestContracts.test_lp_frontier_and_convergence) ... ok
+test_mean_preserving_spread_reverses_slope (test_contracts.TestContracts.test_mean_preserving_spread_reverses_slope) ... ok
+test_monotonicity_within_families (test_contracts.TestContracts.test_monotonicity_within_families) ... ok
+test_uniform_budget_and_slope (test_contracts.TestContracts.test_uniform_budget_and_slope) ... ok
+test_uniform_full_boundary (test_contracts.TestContracts.test_uniform_full_boundary) ... ok
+test_zero_floor_not_full_slope_unconditionally (test_contracts.TestContracts.test_zero_floor_not_full_slope_unconditionally) ... ok
+test_zero_noise (test_contracts.TestContracts.test_zero_noise) ... ok
+test_zero_rate (test_contracts.TestContracts.test_zero_rate) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.112s
+
+OK

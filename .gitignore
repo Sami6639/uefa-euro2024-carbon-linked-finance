@@ -1,0 +1,18 @@
+# Local Python/runtime caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+# Third-party full texts and research snapshots are not publication assets.
+data/raw/
+data/evidence/
+literature/fulltext/
+literature/metadata_raw/
+# Local operating-system files
+.DS_Store
+Thumbs.db

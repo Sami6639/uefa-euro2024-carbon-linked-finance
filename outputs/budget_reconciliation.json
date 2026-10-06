@@ -1,0 +1,11 @@
+{
+  "reported_emissions_tco2e": 316912.0,
+  "reported_rate_eur_per_tco2e": 25.0,
+  "announced_budget_eur": 7925000.0,
+  "arithmetic_budget_eur": 7922800.0,
+  "announced_minus_arithmetic_eur": 2200.0,
+  "exact_invested_eur": 7923013.0,
+  "invested_minus_arithmetic_eur": 213.0,
+  "announced_minus_invested_eur": 1987.0,
+  "explanation": "Differences preserved; no rounding/fee reconciliation is assumed."
+}

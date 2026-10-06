@@ -1,0 +1,16 @@
+check_id,left_value,right_value,difference_left_minus_right,unit,status,interpretation,source_locator
+scope_uefa_vs_dekra,316912,778968,-462056,tCO2e,different_boundaries,Do not treat difference as sampling uncertainty. DEKRA includes fan zones and accommodation. Other method/factor differences persist.,"UEFA p12; DEKRA pp21,43"
+restricted_dekra_vs_uefa,463970.8,316912,147058.8,tCO2e,unresolved_difference,Removing DEKRA fan zones and accommodation does not reproduce UEFA. No bridge invented.,DEKRA Table19 p43; UEFA p12
+fund_budget_vs_invested,7925000,7923013,1987,EUR,distinct_concepts,"Budget/allocations and exact invested sum are separately reported; difference 1,987 EUR is not assigned to a cause.",UEFA closure Financial overview
+rate_product_vs_budget,7922800,7925000,-2200,EUR,unresolved_difference,"Arithmetic product is 7,922,800, 2,200 below announced budget. No rounding rule was published.",UEFA January 2025; original contribution rule
+rate_product_vs_invested,7922800,7923013,-213,EUR,unresolved_difference,Exact invested sum is 213 above the arithmetic contribution product.,UEFA January/July 2025
+fund_esg_vs_closure,8000000,7925000,75000,EUR,source_version_difference,ESG report is approximately/just over 8m; later closure budget 7.925m.,UEFA pp13–14; closure
+clubs_esg_vs_closure,227,225,2,clubs,source_version_difference,ESG report and final announcement report different totals; no club-level bridge supplied.,UEFA pp13–14; January/July 2025
+expected_savings_july_vs_esg,60000,67000,-7000,tonnes_carbon_emissions,source_version_difference,"Lifecycle expectations, not measured annual or realised reductions.",July 2024 article; ESG p14
+team_air_share_table_vs_text,53.95,53.59,0.36,percent,internal_source_discrepancy,Table18 retained for activity dataset.,DEKRA p38
+july_round_clubs_vs_total,191,190,1,clubs,internal_source_discrepancy,Round counts sum to 191; total says 190. No hidden duplicate assumption.,UEFA July 2024 article
+dekra_international_travel_table_vs_text,371712,317712,54000,tCO2e,internal_source_discrepancy,"Appendix/Table3 gives 371,712; p23 prose says 317,712. Appendix value retained.","DEKRA pp22–23,51"
+dekra_category_sum_vs_total,778967,778968,-1,tCO2e,source_rounding_discrepancy,"Printed category totals sum to 778,967; reported grand total preserved.",DEKRA Appendix pp51–52
+fund_basis_vs_esg_forecast,280000,408000,-128000,tCO2e,distinct_forecast_concepts,"280,000 is minimum fund basis, 408,000 is sum of operations and travel forecasts.",UEFA January 2025; ESG p12
+exante_illustrative_25_arithmetic,12250000,12000000,250000,EUR,source_rounding_discrepancy,"Source Table6-1 reports rounded €12m, retained independently from 12.25m arithmetic.",Öko-Institut p59
+fan_zone_domestic_activity_table_total,307.95,307.59,0.36,million passenger-km,internal_source_discrepancy,"Table16 total differs from sum of printed components by 0.36m person-km, larger than two-decimal rounding can explain. Both retained; cause not assigned.",DEKRA Table16 p37

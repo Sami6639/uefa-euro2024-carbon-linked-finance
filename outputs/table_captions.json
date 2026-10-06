@@ -1,0 +1,18 @@
+{
+  "table1": {
+    "title": "Institutional anchors and analytical roles",
+    "note": "Reported amounts retain their source-specific dates. The proposed guaranteed floor is counterfactual."
+  },
+  "table2": {
+    "title": "Boundary and limiting regimes",
+    "note": "Dimensionless uniform-noise checks. At zero noise with F=B, the selected constant contract has zero slope; kinked alternatives are not differentiable at the reference point."
+  },
+  "table3": {
+    "title": "Uniform-noise financing thresholds",
+    "note": "Hypothetical noise scales; benchmark budget EUR 7.925 million and common slope cap EUR 25/tCO2e. Floors are assumed bankable and available ex ante. At zero noise, the displayed positive-target floor thresholds are unattained suprema."
+  },
+  "table4": {
+    "title": "Independent numerical validation",
+    "note": "Errors compare analytical formulas with independent integration, finite differences, and capped-slope linear programs."
+  }
+}
