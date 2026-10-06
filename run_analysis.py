@@ -17,18 +17,18 @@ from model.render_figures import main as figures
 from model.write_manifest import main as manifest
 
 (ROOT/'outputs').mkdir(exist_ok=True)
-(ROOT/'outputs/preflight.json').write_text(json.dumps(preflight(),indent=2)+'\n')
+(ROOT/'outputs/preflight.json').write_text(json.dumps(preflight(),indent=2)+'\n', newline="\n")
 log=io.StringIO()
 suite=unittest.defaultTestLoader.discover(str(ROOT/'tests'))
 r=unittest.TextTestRunner(stream=log,verbosity=2).run(suite)
-(ROOT/'outputs/test_report.txt').write_text(log.getvalue())
+(ROOT/'outputs/test_report.txt').write_text(log.getvalue(), newline="\n")
 (ROOT/'outputs/test_report.json').write_text(json.dumps({'tests_run':r.testsRun,
   'failures':len(r.failures),'errors':len(r.errors),'skipped':len(r.skipped),
-  'passed':r.wasSuccessful()},indent=2)+'\n')
+  'passed':r.wasSuccessful()},indent=2)+'\n', newline="\n")
 print(log.getvalue())
 if not r.wasSuccessful():raise SystemExit('Unit-test gate failed; analysis stopped.')
 generate()
 figures()
 env=preflight();env['scientific_execution_status']='completed; all numerical checks passed'
-(ROOT/'outputs/preflight.json').write_text(json.dumps(env,indent=2)+'\n')
+(ROOT/'outputs/preflight.json').write_text(json.dumps(env,indent=2)+'\n', newline="\n")
 manifest()

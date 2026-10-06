@@ -15,7 +15,7 @@ OUT=ROOT/'outputs'
 
 
 def write_json(name,obj):
-    (OUT/name).write_text(json.dumps(obj,indent=2,allow_nan=False)+'\n')
+    (OUT/name).write_text(json.dumps(obj,indent=2,allow_nan=False)+'\n', newline="\n")
 
 
 def main():
@@ -54,7 +54,7 @@ def main():
       ('uefa_fund_2025_01_20','final_fund','Announced final funding benchmark'),
       ('uefa_fund_2025_07_14','final_invested_exact','Separately reported exact invested amount')]:
         row=anchor(source,metric).to_dict();row['analytical_role']=role;institutional.append(row)
-    pd.DataFrame(institutional).to_csv(OUT/'tables/table1_source_ledger.csv',index=False)
+    pd.DataFrame(institutional).to_csv(OUT/'tables/table1_source_ledger.csv',index=False, lineterminator="\n")
 
     def result_row(f,rho,family,budget=B):
         sd=rho*mu;scale=sd*math.sqrt(3) if family=='uniform' else sd
@@ -72,15 +72,15 @@ def main():
 
     rows=[result_row(f,rho,family) for family in ['uniform','gaussian']
           for rho in cfg['sd_reference_fractions'] for f in cfg['floor_fractions']]
-    grid=pd.DataFrame(rows);grid.to_csv(OUT/'contracts_grid.csv',index=False)
+    grid=pd.DataFrame(rows);grid.to_csv(OUT/'contracts_grid.csv',index=False, lineterminator="\n")
     dense=[result_row(float(f),rho,family) for family in ['uniform','gaussian']
            for rho in cfg['sd_reference_fractions']
            for f in np.linspace(0,1,cfg['plot_floor_points'])]
-    pd.DataFrame(dense).to_csv(OUT/'contracts_plot_data.csv',index=False)
+    pd.DataFrame(dense).to_csv(OUT/'contracts_plot_data.csv',index=False, lineterminator="\n")
     distribution_curves=[result_row(f,float(rho),family) for family in ['uniform','gaussian']
            for f in cfg['distribution_compare_floor_fractions']
            for rho in np.linspace(0,max(cfg['sd_reference_fractions']),cfg['plot_noise_points'])]
-    pd.DataFrame(distribution_curves).to_csv(OUT/'distribution_sensitivity_plot_data.csv',index=False)
+    pd.DataFrame(distribution_curves).to_csv(OUT/'distribution_sensitivity_plot_data.csv',index=False, lineterminator="\n")
 
     checks=[]
     for row in rows:
@@ -94,7 +94,7 @@ def main():
             'absolute_budget_error_eur':abs(expectation(c)-B),
             'analytic_marginal':marginal(c),'finite_difference_marginal':fd,
             'absolute_marginal_error':abs(fd-marginal(c))})
-    checks=pd.DataFrame(checks);checks.to_csv(OUT/'independent_quadrature_validation.csv',index=False)
+    checks=pd.DataFrame(checks);checks.to_csv(OUT/'independent_quadrature_validation.csv',index=False, lineterminator="\n")
     assert checks.absolute_quadrature_error_eur.max()<1e-4
     assert checks.absolute_budget_error_eur.max()<1e-5
     assert checks.absolute_marginal_error.max()<1e-3
@@ -123,9 +123,9 @@ def main():
           'max_floor_for_three_quarter_cap_eur':B-h*p*.75**2,
           'max_floor_for_half_cap_eur':B-h*p*.5**2,
           'marginal_at_90_percent_floor':marginal(uniform_contract(mu,B,.9*B,p,h))})
-    pd.DataFrame(frontier).to_csv(OUT/'liquidity_frontier_grid.csv',index=False)
-    pd.DataFrame(curves).to_csv(OUT/'liquidity_frontier_plot_data.csv',index=False)
-    pd.DataFrame(thresholds).to_csv(OUT/'tables/table3_uniform_financing_thresholds.csv',index=False)
+    pd.DataFrame(frontier).to_csv(OUT/'liquidity_frontier_grid.csv',index=False, lineterminator="\n")
+    pd.DataFrame(curves).to_csv(OUT/'liquidity_frontier_plot_data.csv',index=False, lineterminator="\n")
+    pd.DataFrame(thresholds).to_csv(OUT/'tables/table3_uniform_financing_thresholds.csv',index=False, lineterminator="\n")
 
     lp_rows=[]
     for n in cfg['lp_cells']:
@@ -137,7 +137,7 @@ def main():
                 'lp_minus_analytic':err,'worst_case_discretization_bound':1/(4*n*n),
                 'mean_slope_error':abs(out['mean_slope']-target),'solver_status':out['status']})
             assert -1e-10<=err<=1/(4*n*n)+1e-10
-    lp=pd.DataFrame(lp_rows);lp.to_csv(OUT/'lp_frontier_validation.csv',index=False)
+    lp=pd.DataFrame(lp_rows);lp.to_csv(OUT/'lp_frontier_validation.csv',index=False, lineterminator="\n")
 
     counter=[];counter_summary=[]
     for label,values,weights in [('baseline',[-1,1],[.5,.5]),('independent_noise_added',[-2,0,2],[.25,.5,.25])]:
@@ -149,8 +149,8 @@ def main():
             'recalibrated_intercept':d['intercept'],'expected_payment':d['mean_payment'],
             'expected_marginal_slope':d['marginal'],'fixed_excess_budget':.8,'rate_cap':1.0,
             'value_status':'dimensionless constructed counterexample, not event data'})
-    pd.DataFrame(counter).to_csv(OUT/'counterexample_support.csv',index=False)
-    pd.DataFrame(counter_summary).to_csv(OUT/'counterexample_summary.csv',index=False)
+    pd.DataFrame(counter).to_csv(OUT/'counterexample_support.csv',index=False, lineterminator="\n")
+    pd.DataFrame(counter_summary).to_csv(OUT/'counterexample_summary.csv',index=False, lineterminator="\n")
 
     # Explicit normalized corner regimes include cases outside the event-scale grid.
     corners=[]
@@ -167,7 +167,7 @@ def main():
         corners.append({'regime':label,'budget':budget,'floor':floor,'rate_cap':rate,
           'halfwidth':h,'expected_payment':expectation(c),'marginal':marginal(c),
           'constant_selected':c.constant,'status':'PASS'})
-    pd.DataFrame(corners).to_csv(OUT/'tables/table2_boundary_regimes.csv',index=False)
+    pd.DataFrame(corners).to_csv(OUT/'tables/table2_boundary_regimes.csv',index=False, lineterminator="\n")
 
     # Rounded-report sensitivity uses an alternative consistent reference budget.
     robustness=pd.DataFrame([result_row(f,rho,'uniform',Bcalc)
@@ -175,7 +175,7 @@ def main():
     u=grid[grid.family=='uniform'].reset_index(drop=True)
     robustness['official_budget_marginal_fraction']=u.marginal_fraction_of_cap
     robustness['fraction_difference_from_official']=robustness.marginal_fraction_of_cap-u.marginal_fraction_of_cap
-    robustness.to_csv(OUT/'budget_rounding_robustness.csv',index=False)
+    robustness.to_csv(OUT/'budget_rounding_robustness.csv',index=False, lineterminator="\n")
 
     # Deliberately wrong moving normalization is retained as a falsification diagnostic.
     c=uniform_contract(mu,B,.95*B,p,.1*mu*math.sqrt(3));step=1.0
@@ -215,9 +215,9 @@ def main():
        {'check':'LP frontier, 400 cells','cases':len(cfg['lp_targets']),'maximum_error':summary['max_lp_excess_error_400_cells'],'unit':'normalized budget','status':'PASS'},
        {'check':'LP slope constraint','cases':len(lp),'maximum_error':summary['max_lp_mean_slope_error'],'unit':'normalized slope','status':'PASS'},
        {'check':'Arithmetic-budget sensitivity','cases':len(robustness),'maximum_error':summary['max_rounding_budget_marginal_fraction_change'],'unit':'fraction of cap','status':'PASS'}
-    ]).to_csv(OUT/'tables/table4_validation_summary.csv',index=False)
+    ]).to_csv(OUT/'tables/table4_validation_summary.csv',index=False, lineterminator="\n")
     selected=grid[(grid.floor_fraction.isin([.9,.95,.99]))&(grid.sd_reference_fraction.isin([.05,.1,.2,.3]))]
-    selected.to_csv(OUT/'selected_manuscript_scenarios.csv',index=False)
+    selected.to_csv(OUT/'selected_manuscript_scenarios.csv',index=False, lineterminator="\n")
     write_json('table_captions.json',{
       'table1':{'title':'Institutional anchors and analytical roles','note':'Reported amounts retain their source-specific dates. The proposed guaranteed floor is counterfactual.'},
       'table2':{'title':'Boundary and limiting regimes','note':'Dimensionless uniform-noise checks. At zero noise with F=B, the selected constant contract has zero slope; kinked alternatives are not differentiable at the reference point.'},

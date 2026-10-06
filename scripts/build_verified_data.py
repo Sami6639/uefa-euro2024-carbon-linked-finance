@@ -19,7 +19,7 @@ TODAY='2026-10-06' # fixed snapshot date of the reviewed source archive
 def write_csv(name, rows):
     fields=list(dict.fromkeys(k for row in rows for k in row))
     with (D/name).open('w',newline='',encoding='utf-8') as f:
-        w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(rows)
+        w=csv.DictWriter(f,fieldnames=fields,lineterminator="\n");w.writeheader();w.writerows(rows)
 
 def provenance(source_id, page='', locator=''):
     s=CAT[source_id]
@@ -50,7 +50,7 @@ for sid,s in CAT.items():
         else:
             for e in tree.xpath('//script|//style|//nav|//footer|//header'): e.drop_tree()
             text='\n'.join(t.strip() for t in tree.itertext() if t.strip())
-        path.with_suffix('.txt').write_text(text,encoding='utf-8')
+        path.with_suffix('.txt').write_text(text,encoding='utf-8', newline="\n")
     manifest.append(row)
 write_csv('source_manifest.csv',manifest)
 
@@ -379,7 +379,7 @@ runtime={'recorded_at_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'python_
  'conda_path':shutil.which('conda'),'micromamba_path':shutil.which('micromamba'),'mamba_path':shutil.which('mamba'),
  'executed_under_conda':bool(__import__('os').environ.get('CONDA_PREFIX')),
  'pdftotext_path':shutil.which('pdftotext'), 'acquisition_and_build':'Executed in managed Python runtime; no packages installed.'}
-(D/'runtime_environment.json').write_text(json.dumps(runtime,indent=2))
+(D/'runtime_environment.json').write_text(json.dumps(runtime,indent=2), newline="\n")
 
 # Checks preserve source discrepancies; only exact identities are assertions.
 assert 67955+248957==316912
@@ -400,7 +400,7 @@ for table,(_,_,page,total,rows) in tables.items():
 (D/'validation_report.json').write_text(json.dumps({'exact_identity_checks':'passed','activity_checks':checks,
  'source_discrepancies':'See source_reconciliation.csv. Differences are not corrected.',
  'factor_completeness':'Absolute activity-to-factor matrix not available; differential factors only.',
- 'dataset_counts':{k:sum(1 for _ in csv.DictReader((D/k).open())) for k in dictionary}},indent=2))
+ 'dataset_counts':{k:sum(1 for _ in csv.DictReader((D/k).open())) for k in dictionary}},indent=2), newline="\n")
 hashes=[]
 for p in sorted(D.glob('*')):
     if p.is_file() and p.name!='data_file_hashes.csv':

@@ -96,6 +96,11 @@ The equal-floor endpoint added to the floor-share grid is a diagnostic corner te
 The manuscript notation uses e* for the physical reference level, d for uniform half-width, H for the euro financing gap, and q for the target marginal obligation. CSV columns use descriptive names. Function argument names `mean`, `halfwidth`, `gap` and `target` correspond to these symbols.
 
 
+## Text-format portability
+
+Release text files use canonical LF line endings. CSV writers specify LF explicitly, and package hashes are calculated after text normalization. This keeps scientific values and published hash ledgers consistent with Git text normalization. Original source snapshot hashes refer to unmodified downloaded bytes; derived CSV line endings are a separate representation choice.
+
+
 ## Portable release contents
 
 This release contains derived evidence ledgers, the analysis code and tests, generated results and figures, and verified citation metadata. It intentionally omits full-text PDFs/HTML, evidence screenshots, archival literature-preparation scripts and review-working files. Acquisition can retrieve sources, but remote bytes may change; original source hashes are retained in source_manifest.csv. The numerical analysis runs from the included processed files without downloads. Citation registries contain only the final manuscript bibliography, supplied as verified metadata rather than a rerunnable literature-search pipeline. Public availability of a source is not represented as a redistribution licence.

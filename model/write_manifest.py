@@ -25,7 +25,7 @@ def main():
        'interpretation_limitations':['This is an analytical contract-design study, not an empirical event-effects study.',
           'Noise and financing-gap domains are assumptions, not estimated uncertainty distributions.',
           'Exact source redistribution terms are not presumed; review source licences before public archiving.']}
-    (ROOT/'outputs/manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+    (ROOT/'outputs/manifest.json').write_text(json.dumps(manifest,indent=2)+'\n', newline="\n")
     print(f'Manifest: {len(rows)} files hashed.')
 
 if __name__=='__main__':main()

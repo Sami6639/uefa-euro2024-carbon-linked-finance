@@ -24,5 +24,5 @@ def preflight():
 
 if __name__ == '__main__':
     out = ROOT / 'outputs' / 'preflight.json'
-    out.write_text(json.dumps(preflight(), indent=2) + '\n')
+    out.write_text(json.dumps(preflight(), indent=2) + '\n', newline="\n")
     print(out)

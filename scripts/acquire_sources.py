@@ -36,7 +36,7 @@ def main():
                 bytes=len(blob), sha256=hashlib.sha256(blob).hexdigest(),
                 local_path=str(path.relative_to(ROOT)),
                 http_last_modified=response.headers.get("Last-Modified", ""))
-            (out / (s["source_id"]+".retrieval.json")).write_text(json.dumps(receipt,indent=2))
+            (out / (s["source_id"]+".retrieval.json")).write_text(json.dumps(receipt,indent=2), newline="\n")
             return receipt
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         for result in pool.map(acquire, catalog):

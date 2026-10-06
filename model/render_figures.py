@@ -119,7 +119,7 @@ def main():
         'note':'Hypothetical uniform and Gaussian errors have equal variance at each sigma/e*; each schedule is calibrated to the same expected budget. Gaussian reporting is a signed-error sensitivity, with a negative-report tail.'},
       'figure4':{'file':'figure4_noise_counterexample','title':'A mean-preserving spread can raise the marginal obligation.',
         'note':'Dimensionless counterexample, not event data. Adding an independent symmetric unit noise raises variance from 1 to 2 and the local expected slope from 0.50 to 0.75; expected payment remains 0.80 and p=1.'}}
-    (OUT/'figure_captions.json').write_text(json.dumps(captions,indent=2)+'\n')
+    (OUT/'figure_captions.json').write_text(json.dumps(captions,indent=2)+'\n', newline="\n")
     print('Rendered four figures in PNG, PDF and SVG.')
 
 if __name__=='__main__':main()
