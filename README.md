@@ -1,5 +1,13 @@
 # Reproducible climate-finance contract analysis
 
+## Current manuscript: 7 October 2026 revision
+
+The computational supplement for *Advance Finance and Exposure Limits in Emissions-Linked Funding: An Analytical Framework Illustrated by UEFA EURO 2024* is in [`revision-2026-10-07/`](revision-2026-10-07/). It contains the current manuscript's inputs, code, numerical checks, table sources and four figures. Follow that folder's README to reproduce this version.
+
+The earlier public analysis is preserved in the [pre-revision snapshot](https://github.com/Sami6639/uefa-euro2024-carbon-linked-finance/tree/4811387251b118b2fbfa6bca9076bc454c54c233). The root-level workflow documented below belongs to that earlier analysis; its tables and figures should not be substituted for those in the current revision folder.
+
+## Earlier analysis
+
 This analysis companion supports *Financing Credible Decarbonisation in Mega-Events: Carbon-Linked Commitments and Emissions Uncertainty at UEFA EURO2024*. It implements a conditional, applied analytical framework. It does not estimate UEFA behavioral responses, event-caused abatement, project additionality, causal effects, or empirical measurement-error distributions.
 
 ## Reproduce
@@ -104,3 +112,4 @@ Release text files use canonical LF line endings. CSV writers specify LF explici
 ## Portable release contents
 
 This release contains derived evidence ledgers, the analysis code and tests, generated results and figures, and verified citation metadata. It intentionally omits full-text PDFs/HTML, evidence screenshots, archival literature-preparation scripts and review-working files. Acquisition can retrieve sources, but remote bytes may change; original source hashes are retained in source_manifest.csv. The numerical analysis runs from the included processed files without downloads. Citation registries contain only the final manuscript bibliography, supplied as verified metadata rather than a rerunnable literature-search pipeline. Public availability of a source is not represented as a redistribution licence.
+

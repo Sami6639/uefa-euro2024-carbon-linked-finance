@@ -1,0 +1,4 @@
+Prepared 7 October 2026. NOT YET UPLOADED: GitHub integration returned HTTP 403 (Resource not accessible by integration).
+Target repository: https://github.com/Sami6639/uefa-euro2024-carbon-linked-finance
+Add revision-2026-10-07/ and update root README.md together; preserve all other repository files.
+The URLs to the revision folder become valid only after successful publication.
