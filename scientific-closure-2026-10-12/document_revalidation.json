@@ -1,16 +1,16 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "date": "2026-10-12",
   "status": "PASS",
   "final_docx_sha256": {
-    "08_Final_Clean_Manuscript.docx": "f1105c415d74f3da5b7c41eb779589caaa43dfb695fa26cf69ae52ea4a0243ca",
-    "Supplementary_Information.docx": "de5b8f58003fb17b0320654076616c3bf1d0438d5f27bc7231303e82523d78ac"
+    "08_Final_Clean_Manuscript.docx": "f57f1af643f484755c287f839946657b4c886358304fcbb4ba46ed7390a6be18",
+    "Supplementary_Information.docx": "396f84e8b05678f7868c3b20f436b6b80df72874ffd7ac724f956116126cf075"
   },
-  "prior_closure_commit": "8e65649cf9870075a51fe3271111e5acf503bb96",
+  "prior_closure_commit": "fbae63674323d675a3f0c08faa0e7fcf6aecd6fd",
   "formal_register_entries": 30,
   "formal_register_pass_entries": 30,
-  "reason": "No scientific equation, assumption, boundary result, scenario or calculation changed. Literature attribution tightened; eight existing inline formulas reencoded natively. Existing 30-entry proof register remains applicable to these final hashes.",
-  "rerun_scope": "Read-only final-content and identity checks only; no numerical model rerun or new theorem.",
+  "reason": "Only Jewitt source attribution and interpretation changed; all equations and numerical scenarios are preserved against the prior closure documents. The 30-entry formal register remains applicable.",
+  "rerun_scope": "Read-only artifact/attribution audit; no new numerical analysis run.",
   "document_checks": [
     {
       "check": "08_Final_Clean_Manuscript.docx images unchanged",
@@ -77,23 +77,7 @@
       "passed": true
     },
     {
-      "check": "SI retains all original native OMML",
-      "passed": true
-    },
-    {
-      "check": "SI C0 is encoded with native zero subscript",
-      "passed": true
-    },
-    {
-      "check": "SI eight new OMML strings semantically match inherited formulas",
-      "passed": true
-    },
-    {
-      "check": "SI inherited slope and reserve statement semantically identical",
-      "passed": true
-    },
-    {
-      "check": "SI certificate attribution includes independent payment span",
+      "check": "SI native OMML byte-canonical identity",
       "passed": true
     },
     {
@@ -129,17 +113,26 @@
       "passed": true
     }
   ],
-  "checks_passed": 29,
-  "checks_total": 29,
+  "checks_passed": 25,
+  "checks_total": 25,
   "main_native_math_objects": 178,
   "SI_native_math_objects": 18,
-  "SI_existing_math_objects_preserved": 10,
-  "SI_equivalent_inline_math_objects_added": 8,
-  "source_reuse_boundary": "The other 32 reference evidence records and all 36 institutional records are preserved from the earlier source audit, not represented as new full-text retrieval or a second primary-source visual audit.",
+  "source_reuse_boundary": "Only R14 Jewitt is upgraded in this pass. Other 32 references including Lo final-publisher verification and all 36 institutional records retain earlier evidence; no blanket new 33-source full-text audit claimed.",
   "remaining_access_boundaries": [
-    "Jewitt: final abstract/metadata; earlier two-author version cannot certify final three-author theorem assumptions.",
-    "Cheung: final preview/metadata; no final readable full theorem text.",
-    "Other abstract/indexed/author-manuscript levels remain explicit in individual source records."
+    "Cheung 2023 final readable full text is not available; preview/repository metadata support general methodological attribution only, not all final theorem assumptions.",
+    "Other reference-specific abstract/indexed/author-manuscript access levels remain explicit."
   ],
+  "Cheung_final_theorem_access_status": "OPEN: final readable full text remains unavailable; no exact final-theorem comparison claimed.",
+  "Jewitt_final_source": {
+    "citation": "Jewitt, I., Kadan, O., & Swinkels, J. M. (2008). Moral hazard with bounded payments. Journal of Economic Theory, 143(1), 59–82. https://doi.org/10.1016/j.jet.2007.12.004",
+    "landing_url": "https://www.kellogg.northwestern.edu/academics-research/research/detail/2008/moral-hazard-with-bounded-payments/",
+    "pdf_url": "https://faculty.kellogg.northwestern.edu/models/faculty/m_download_document.php?id=265",
+    "version": "Final publisher typeset article",
+    "pages": 24,
+    "bytes": 301644,
+    "sha256": "9e2bf0456128fb4c166c0f3fff8385bd679f8299d79d4f41483db655596e69da",
+    "record_warning": "The Kellogg landing-page citation incorrectly gives 36–58 and an altered author ordering. Use the PDF itself and DOI/publisher identity: 59–82, Jewitt–Kadan–Swinkels."
+  },
+  "existence_caveat": "JKS Proposition 1 is described as a characterisation, not an unconditional existence guarantee. Moroni–Swinkels 2014 final p.669 and footnote 2 caveat is retained in this audit without adding a manuscript reference.",
   "evidence_boundary": "AI-assisted consistency checks; no external human endorsement or exhaustive novelty certification."
 }

@@ -1,5 +1,5 @@
 {
-  "sha256": "f1105c415d74f3da5b7c41eb779589caaa43dfb695fa26cf69ae52ea4a0243ca",
+  "sha256": "f57f1af643f484755c287f839946657b4c886358304fcbb4ba46ed7390a6be18",
   "reference_count": 33,
   "all_references_cited": true,
   "unique_matching_references": true,
@@ -11,7 +11,7 @@
     }
   ],
   "location_scheme": "1-based python-docx body paragraphs and table/row positions; do not confuse with previous flattened block indices",
-  "reconciliation": "All 33 reference entries remain verbatim at the same paragraph positions; existing author-year citation locations retained. Lo p19 now contains a theorem locator and p20 explicitly names the theorem; SI p11/Table S4a add final-publisher locators. No new reference entry introduced.",
+  "reconciliation": "All 33 reference entries remain verbatim at the same paragraph positions. P21 now uses Jewitt (2008, Proposition 1); its former Poblete citation is removed, while Poblete remains in P18. Lo final-source citations remain unchanged. No new reference is introduced.",
   "reference_identity_checks": [
     {
       "reference_id": "R01",

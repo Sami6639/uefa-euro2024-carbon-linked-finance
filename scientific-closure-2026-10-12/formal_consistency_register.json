@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "date": "2026-10-12",
   "scope": "Equation, unit and boundary consistency for the final manuscript and supplement",
   "nature": "AI-assisted analytical and artifact audit; no external human certification; existing execution evidence reused, not rerun from scratch",
@@ -338,7 +338,7 @@
   ],
   "final_artifact_gate": "PASS: document_revalidation.json verifies the current identities and unchanged scientific content; the earlier artifact_consistency_results.json retains its original-document provenance.",
   "final_docx_sha256": {
-    "08_Final_Clean_Manuscript.docx": "f1105c415d74f3da5b7c41eb779589caaa43dfb695fa26cf69ae52ea4a0243ca",
-    "Supplementary_Information.docx": "de5b8f58003fb17b0320654076616c3bf1d0438d5f27bc7231303e82523d78ac"
+    "08_Final_Clean_Manuscript.docx": "f57f1af643f484755c287f839946657b4c886358304fcbb4ba46ed7390a6be18",
+    "Supplementary_Information.docx": "396f84e8b05678f7868c3b20f436b6b80df72874ffd7ac724f956116126cf075"
   }
 }

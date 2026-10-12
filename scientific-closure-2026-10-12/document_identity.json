@@ -1,26 +1,28 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "date": "2026-10-12",
   "documents": [
     {
       "file": "08_Final_Clean_Manuscript.docx",
-      "sha256": "f1105c415d74f3da5b7c41eb779589caaa43dfb695fa26cf69ae52ea4a0243ca",
-      "bytes": 594346,
+      "sha256": "f57f1af643f484755c287f839946657b4c886358304fcbb4ba46ed7390a6be18",
+      "bytes": 594416,
       "native_math_objects": 178,
-      "pages": 21
+      "pages": 21,
+      "render_pdf_sha256": "c0e8d1a14d41b668a83001e5d10459d562b407535410a2d99d0dab17abcd1837"
     },
     {
       "file": "Supplementary_Information.docx",
-      "sha256": "de5b8f58003fb17b0320654076616c3bf1d0438d5f27bc7231303e82523d78ac",
-      "bytes": 46237,
+      "sha256": "396f84e8b05678f7868c3b20f436b6b80df72874ffd7ac724f956116126cf075",
+      "bytes": 46282,
       "native_math_objects": 18,
-      "pages": 6
+      "pages": 6,
+      "render_pdf_sha256": "a3231fac79b6426305779dfd8551904f9a6ef48315c7ac89dbc380ead60d8c22"
     }
   ],
   "main_abstract_words": 150,
-  "main_inclusive_words_excluding_references_with_native_math": 7935,
+  "main_inclusive_words_excluding_references_with_native_math": 7952,
   "matched_references": 33,
   "main_embedded_figures": 4,
-  "scope": "Identity of actual final edited documents; no claim that these binaries are at the earlier computational commit.",
+  "scope": "Final Word identity following Jewitt attribution revision; no numerical-code change or claim of public Word-binary upload.",
   "document_binaries_included": false
 }

@@ -9,19 +9,21 @@ This record binds the final manuscript and supplementary information to the prev
 - `citation_match_summary.json`: two-way citation matching and removal of the unnecessary Wang et al. (2024) dependency.
 - `formal_consistency_register.json` / `.csv`: equation, hypothesis, boundary, unit and manuscript–supplement consistency results.
 - `artifact_consistency_results.json`: 51 passing historical artifact checks and 121 passing source-bound table-cell checks, explicitly bound to the earlier document identities. Prior numerical execution is reused, not represented as a fresh rerun.
-- `document_identity.json`: SHA-256 identities and descriptive counts for the final, separately held documents: 21 manuscript pages, 6 supplement pages, 150 abstract words, 7,935 inclusive manuscript words excluding References, and 33 matched references.
+- `document_identity.json`: SHA-256 identities and descriptive counts for the final, separately held documents: 21 manuscript pages, 6 supplement pages, 150 abstract words, 7,952 inclusive manuscript words excluding References, and 33 matched references.
 - `evidence_closure_summary.json`: scope and remaining evidence limits.
 - `manifest_sha256.csv`: SHA-256 checksums of these public records and the updated root README. The manifest excludes itself.
 
 ## Final document update
 
-The final Lo (2017) publisher theorem comparison has been incorporated into the separately held Word documents. The citation record distinguishes a single inequality that may be slack or binding from externally required exact spending, and retains the independent payment-span condition. Numerical calculations, scenarios, tables and figures are unchanged.
+The final three-author Jewitt et al. (2008) publisher text has been verified through the official Kellogg copy and incorporated into the separately held Word documents. Proposition 1 (pp. 64–65) characterises a relaxed fixed-effort agency cost problem; Proposition 4 (p. 69) concerns costly restrictions and bound-attaining payments. The comparison distinguishes that agency problem from the present obligation target, payment-rate cap, and exact-mean/ceiling financing constraints. Proposition 1 is not represented as an unconditional existence guarantee.
 
-`document_revalidation.json` binds the new document identities to 29 passing delta checks and the unchanged 30-entry formal register. The manuscript retains 178 native math objects; the supplement retains its 10 prior objects and adds 8 semantically equivalent native inline objects. The other 32 citation evidence records and all 36 institutional records are reused rather than presented as newly retrieved evidence. The earlier exact document snapshot remains available at commit `8e65649cf9870075a51fe3271111e5acf503bb96`.
+`document_revalidation.json` binds the new document identities to 25 passing delta checks and the unchanged 30-entry formal register. All 178 manuscript and 18 supplement native math objects, numeric tables and four manuscript figures are preserved. The other 32 citation evidence records, including the earlier Lo final-publisher verification, and all 36 institutional records are reused. The previous document snapshot remains available at commit `fbae63674323d675a3f0c08faa0e7fcf6aecd6fd`.
+
+Cheung (2023) final-theorem access remains OPEN: final readable full text is unavailable. Only the bounded preview/metadata-based methodological comparison is supported; no complete final-theorem verification is claimed.
 
 ## Interpretation and limits
 
-The contribution is an explicit analytical specialisation with bounded comparisons. Exhaustive theorem-by-theorem novelty exclusion is unverified and unclaimed. In particular, final full-text theorem-level comparisons for Cheung and Jewitt remain limited. Source-level support must be read with each record's stated access level; this is not universal full-text certification.
+The contribution is an explicit analytical specialisation with bounded comparisons. Exhaustive theorem-by-theorem novelty exclusion is unverified and unclaimed. In particular, the final full-text theorem-level comparison for Cheung remains unavailable; the specified Jewitt results are now verified. Source-level support must be read with each record's stated access level; this is not universal full-text certification.
 
 The records are AI-assisted analytical and artifact checks, not external human review, journal acceptance, a quality score or a guarantee. A complete dated institutional cash-flow case remains unavailable. The institutional overhead-cost denominator conflict is preserved explicitly rather than silently reconciled. Numerical diagnostics support consistency but do not replace analytical proof.
 
