@@ -1,5 +1,5 @@
 {
-  "sha256": "f57f1af643f484755c287f839946657b4c886358304fcbb4ba46ed7390a6be18",
+  "sha256": "bf5e81b5479cdc7859ea1b20ee26f92bd034956d3d3933fc67de4e8a1a48bde1",
   "reference_count": 33,
   "all_references_cited": true,
   "unique_matching_references": true,
@@ -11,7 +11,7 @@
     }
   ],
   "location_scheme": "1-based python-docx body paragraphs and table/row positions; do not confuse with previous flattened block indices",
-  "reconciliation": "All 33 reference entries remain verbatim at the same paragraph positions. P21 now uses Jewitt (2008, Proposition 1); its former Poblete citation is removed, while Poblete remains in P18. Lo final-source citations remain unchanged. No new reference is introduced.",
+  "reconciliation": "All 33 reference entries and citation-bearing body/table text retained. Main has the same 184 body paragraphs as the prior public closure document; only title, abstract, keywords and conclusion paragraphs 126–130 differ. Existing scientific source locators remain applicable; no source-content re-verification is implied.",
   "reference_identity_checks": [
     {
       "reference_id": "R01",

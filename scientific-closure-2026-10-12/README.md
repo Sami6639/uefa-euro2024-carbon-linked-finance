@@ -9,17 +9,19 @@ This record binds the final manuscript and supplementary information to the prev
 - `citation_match_summary.json`: two-way citation matching and removal of the unnecessary Wang et al. (2024) dependency.
 - `formal_consistency_register.json` / `.csv`: equation, hypothesis, boundary, unit and manuscript–supplement consistency results.
 - `artifact_consistency_results.json`: 51 passing historical artifact checks and 121 passing source-bound table-cell checks, explicitly bound to the earlier document identities. Prior numerical execution is reused, not represented as a fresh rerun.
-- `document_identity.json`: SHA-256 identities and descriptive counts for the final, separately held documents: 21 manuscript pages, 6 supplement pages, 150 abstract words, 7,952 inclusive manuscript words excluding References, and 33 matched references.
+- `document_identity.json`: SHA-256 identities and descriptive counts for the final, separately held documents: 21 manuscript pages, 6 supplement pages, 149 abstract words, 7,967 inclusive manuscript words excluding References, and 33 matched references.
 - `evidence_closure_summary.json`: scope and remaining evidence limits.
 - `manifest_sha256.csv`: SHA-256 checksums of these public records and the updated root README. The manifest excludes itself.
 
-## Final document update
+## Current document identity
 
-The final three-author Jewitt et al. (2008) publisher text has been verified through the official Kellogg copy and incorporated into the separately held Word documents. Proposition 1 (pp. 64–65) characterises a relaxed fixed-effort agency cost problem; Proposition 4 (p. 69) concerns costly restrictions and bound-attaining payments. The comparison distinguishes that agency problem from the present obligation target, payment-rate cap, and exact-mean/ceiling financing constraints. Proposition 1 is not represented as an unconditional existence guarantee.
+The current manuscript is **Affordable but Infeasible: Climate-Finance Advances under Reporting Uncertainty**. The supplement carries the same title. The title, abstract and keywords follow the revised author document; the five-paragraph conclusion is condensed to 341 words and financial screening is described alongside performance evaluation. The final manuscript contains 7,967 inclusive words excluding References and a 149-word abstract.
 
-`document_revalidation.json` binds the new document identities to 25 passing delta checks and the unchanged 30-entry formal register. All 178 manuscript and 18 supplement native math objects, numeric tables and four manuscript figures are preserved. The other 32 citation evidence records, including the earlier Lo final-publisher verification, and all 36 institutional records are reused. The previous document snapshot remains available at commit `fbae63674323d675a3f0c08faa0e7fcf6aecd6fd`.
+`document_revalidation.json` binds the current documents to 25 passing checks. All 178 manuscript and 18 supplement native mathematics objects, 221 main table cells, four figures and 33 references are preserved. The prior 30-entry formal register and scientific computations remain applicable. Source-access records are reused, not presented as a new full-text audit. Scientific source locators remain valid: body paragraph count and citation-bearing text are unchanged.
 
-Cheung (2023) final-theorem access remains OPEN: final readable full text is unavailable. Only the bounded preview/metadata-based methodological comparison is supported; no complete final-theorem verification is claimed.
+The prior title, **Climate Finance under Reporting Uncertainty: A Feasibility Framework Illustrated by UEFA EURO 2024**, identifies historical document versions. The previous exact closure snapshot is preserved at commit `5eb0eddff98c897a59a993d6c43aee49c7b4b2c7`; older titles in the reproduction packages are historical labels.
+
+Lo and the specified Jewitt final-source results retain their recorded verification. Cheung (2023) final-theorem access remains OPEN: final readable full text is unavailable; no complete final-theorem verification is claimed.
 
 ## Interpretation and limits
 

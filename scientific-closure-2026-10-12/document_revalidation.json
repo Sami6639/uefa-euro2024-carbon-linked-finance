@@ -1,115 +1,115 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "date": "2026-10-12",
   "status": "PASS",
   "final_docx_sha256": {
-    "08_Final_Clean_Manuscript.docx": "f57f1af643f484755c287f839946657b4c886358304fcbb4ba46ed7390a6be18",
-    "Supplementary_Information.docx": "396f84e8b05678f7868c3b20f436b6b80df72874ffd7ac724f956116126cf075"
+    "Affordable but Infeasible.docx": "bf5e81b5479cdc7859ea1b20ee26f92bd034956d3d3933fc67de4e8a1a48bde1",
+    "Supplementary_Information.docx": "73de5a4232e00f0cb78ac487a3a10af142f34da57d11960758a3e375af8d8caa"
   },
-  "prior_closure_commit": "fbae63674323d675a3f0c08faa0e7fcf6aecd6fd",
+  "prior_closure_commit": "5eb0eddff98c897a59a993d6c43aee49c7b4b2c7",
   "formal_register_entries": 30,
   "formal_register_pass_entries": 30,
-  "reason": "Only Jewitt source attribution and interpretation changed; all equations and numerical scenarios are preserved against the prior closure documents. The 30-entry formal register remains applicable.",
+  "reason": "Title, abstract, keywords and conclusion updated; supplement title synchronized. All mathematics, numeric scenarios, 221 main table cells, 4 main figures and 33 references preserved. No new calculation or theorem.",
   "rerun_scope": "Read-only artifact/attribution audit; no new numerical analysis run.",
   "document_checks": [
     {
-      "check": "08_Final_Clean_Manuscript.docx images unchanged",
+      "check": "main all native OMML exactly preserved",
       "passed": true
     },
     {
-      "check": "Main native OMML byte-canonical identity",
+      "check": "main all embedded images exactly preserved",
       "passed": true
     },
     {
-      "check": "08_Final_Clean_Manuscript.docx table count unchanged",
+      "check": "main all table cells exactly preserved",
       "passed": true
     },
     {
-      "check": "08_Final_Clean_Manuscript.docx table 1 exact text identity",
+      "check": "main no tracked changes or comments",
       "passed": true
     },
     {
-      "check": "08_Final_Clean_Manuscript.docx table 2 exact text identity",
+      "check": "SI all native OMML exactly preserved",
       "passed": true
     },
     {
-      "check": "08_Final_Clean_Manuscript.docx table 3 exact text identity",
+      "check": "SI all embedded images exactly preserved",
       "passed": true
     },
     {
-      "check": "08_Final_Clean_Manuscript.docx table 4 exact text identity",
+      "check": "SI all table cells exactly preserved",
       "passed": true
     },
     {
-      "check": "08_Final_Clean_Manuscript.docx table 5 exact text identity",
+      "check": "SI no tracked changes or comments",
       "passed": true
     },
     {
-      "check": "08_Final_Clean_Manuscript.docx no tracked changes or comment markers",
+      "check": "Main every text block outside conclusion exactly preserved",
       "passed": true
     },
     {
-      "check": "Bibliography unchanged",
+      "check": "Conclusion retains five paragraphs",
       "passed": true
     },
     {
-      "check": "Exactly 33 reference entries",
+      "check": "SI only second title paragraph changed",
       "passed": true
     },
     {
-      "check": "Abstract exactly 150 words",
+      "check": "SI new manuscript title equals main title",
       "passed": true
     },
     {
-      "check": "Inclusive body under 8000 words",
+      "check": "Strictly under8000 inclusive words",
       "passed": true
     },
     {
-      "check": "Abstract exactly unchanged",
+      "check": "Abstract within140–150 words",
       "passed": true
     },
     {
-      "check": "All baseline reference keys still cited",
+      "check": "All33 references preserved",
       "passed": true
     },
     {
-      "check": "Supplementary_Information.docx images unchanged",
+      "check": "Conclusion retains €7.925 million",
       "passed": true
     },
     {
-      "check": "SI native OMML byte-canonical identity",
+      "check": "Conclusion retains 90%",
       "passed": true
     },
     {
-      "check": "Supplementary_Information.docx table count unchanged",
+      "check": "Conclusion retains 10%",
       "passed": true
     },
     {
-      "check": "Supplementary_Information.docx table 1 exact text identity",
+      "check": "Conclusion retains €18.75",
       "passed": true
     },
     {
-      "check": "Supplementary_Information.docx table 2 exact text identity",
+      "check": "Conclusion retains 110%",
       "passed": true
     },
     {
-      "check": "Supplementary_Information.docx table 3 exact text identity",
+      "check": "Conclusion retains 84.026%",
       "passed": true
     },
     {
-      "check": "Supplementary_Information.docx table 4 exact text identity",
+      "check": "Conclusion retains €473,403.82",
       "passed": true
     },
     {
-      "check": "Supplementary_Information.docx table 6 exact text identity",
+      "check": "Other-inputs-fixed qualification explicit",
       "passed": true
     },
     {
-      "check": "Supplementary_Information.docx table 7 exact text identity",
+      "check": "Before-evaluation overclaim removed",
       "passed": true
     },
     {
-      "check": "Supplementary_Information.docx no tracked changes or comment markers",
+      "check": "Only requested nonconclusion paragraph-property change",
       "passed": true
     }
   ],
@@ -117,7 +117,7 @@
   "checks_total": 25,
   "main_native_math_objects": 178,
   "SI_native_math_objects": 18,
-  "source_reuse_boundary": "Only R14 Jewitt is upgraded in this pass. Other 32 references including Lo final-publisher verification and all 36 institutional records retain earlier evidence; no blanket new 33-source full-text audit claimed.",
+  "source_reuse_boundary": "All 33 citation evidence records and 36 institutional records retain their previous source-access levels; title and document identity updates do not constitute fresh source verification.",
   "remaining_access_boundaries": [
     "Cheung 2023 final readable full text is not available; preview/repository metadata support general methodological attribution only, not all final theorem assumptions.",
     "Other reference-specific abstract/indexed/author-manuscript access levels remain explicit."
@@ -134,5 +134,32 @@
     "record_warning": "The Kellogg landing-page citation incorrectly gives 36–58 and an altered author ordering. Use the PDF itself and DOI/publisher identity: 59–82, Jewitt–Kadan–Swinkels."
   },
   "existence_caveat": "JKS Proposition 1 is described as a characterisation, not an unconditional existence guarantee. Moroni–Swinkels 2014 final p.669 and footnote 2 caveat is retained in this audit without adding a manuscript reference.",
-  "evidence_boundary": "AI-assisted consistency checks; no external human endorsement or exhaustive novelty certification."
+  "evidence_boundary": "AI-assisted consistency checks; no external human endorsement or exhaustive novelty certification.",
+  "current_title": "Affordable but Infeasible: Climate-Finance Advances under Reporting Uncertainty",
+  "counts": {
+    "abstract": 149,
+    "inclusive_main_excluding_references": 7967,
+    "conclusion_words": 341,
+    "references": 33,
+    "main_math": 178,
+    "SI_math": 18,
+    "main_figures": 4,
+    "main_table_cells": 221
+  },
+  "citation_locator_reconciliation": {
+    "main_body_paragraphs_before": 184,
+    "main_body_paragraphs_after": 184,
+    "changed_body_paragraphs_1based": [
+      1,
+      3,
+      4,
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "main_tables_unchanged": true,
+    "source_locator_status": "Existing scientific source locators retained; citation-bearing body/table text unchanged."
+  }
 }

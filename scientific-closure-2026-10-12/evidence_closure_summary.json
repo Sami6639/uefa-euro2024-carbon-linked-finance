@@ -1,16 +1,17 @@
 {
   "date": "2026-10-12",
-  "main_sha256": "f57f1af643f484755c287f839946657b4c886358304fcbb4ba46ed7390a6be18",
-  "SI_sha256": "396f84e8b05678f7868c3b20f436b6b80df72874ffd7ac724f956116126cf075",
+  "main_sha256": "bf5e81b5479cdc7859ea1b20ee26f92bd034956d3d3933fc67de4e8a1a48bde1",
+  "SI_sha256": "73de5a4232e00f0cb78ac487a3a10af142f34da57d11960758a3e375af8d8caa",
   "reference_count": 33,
   "A01": "Closed for explicit analytical specialisation; exhaustive final-antecedent theorem exclusion unverified and unclaimed",
   "A03": "Closed for retained primary documentary claims and explicit unknowns",
   "A04": "Closed for retained claims at source-specific access levels; 33/33 matches, unnecessary Wang dependency removed",
   "C03": "Dated complete cash-flow case unavailable; unobserved status preserved",
-  "provenance": "Jewitt final-source verification and current-document reconciliation added; other 32 reference evidence records, including Lo, and all 36 institutional records reused. No numerical rerun.",
+  "provenance": "Earlier Lo and Jewitt source-specific verification reused. This revision synchronizes document identity and title, condenses the conclusion and corrects screening/evaluation wording; no new source retrieval or numerical rerun.",
   "limits": "No external human endorsement; no universal full-text certification; no visual Word-layout certification by this source audit",
   "scope": "Evidence closure for retained, deliberately bounded claims; source-specific access limits remain operative.",
   "Lo_final_source_update": "Final publisher Theorem 3.2 p.480, Remark 3.3(iii) p.483 and Proposition 4.1 pp.484–485 checked. A single integral inequality may be slack or binding; an externally mandated equality and the present two-reserve/payment-span certificate are distinct. No new general allocation method claimed.",
   "Jewitt_final_source_update": "Final three-author publisher text verified via official Kellogg copy. Proposition 1 pp.64–65 characterises the relaxed fixed-effort cost problem; Proposition 4 p.69 concerns cost-increasing restrictions and bound-attaining payments. These agency results do not directly state the present certificate; no non-derivability claim follows.",
-  "Cheung_final_theorem_access_status": "OPEN: final readable full text remains unavailable; no exact final-theorem comparison claimed."
+  "Cheung_final_theorem_access_status": "OPEN: final readable full text remains unavailable; no exact final-theorem comparison claimed.",
+  "manuscript_title": "Affordable but Infeasible: Climate-Finance Advances under Reporting Uncertainty"
 }

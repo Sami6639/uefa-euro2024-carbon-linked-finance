@@ -1,28 +1,28 @@
 {
-  "version": "2.2.0",
+  "version": "2.3.0",
   "date": "2026-10-12",
+  "manuscript_title": "Affordable but Infeasible: Climate-Finance Advances under Reporting Uncertainty",
   "documents": [
     {
-      "file": "08_Final_Clean_Manuscript.docx",
-      "sha256": "f57f1af643f484755c287f839946657b4c886358304fcbb4ba46ed7390a6be18",
-      "bytes": 594416,
-      "native_math_objects": 178,
+      "file": "Affordable but Infeasible.docx",
+      "sha256": "bf5e81b5479cdc7859ea1b20ee26f92bd034956d3d3933fc67de4e8a1a48bde1",
       "pages": 21,
-      "render_pdf_sha256": "c0e8d1a14d41b668a83001e5d10459d562b407535410a2d99d0dab17abcd1837"
+      "bytes": 594800,
+      "native_math_objects": 178
     },
     {
       "file": "Supplementary_Information.docx",
-      "sha256": "396f84e8b05678f7868c3b20f436b6b80df72874ffd7ac724f956116126cf075",
-      "bytes": 46282,
-      "native_math_objects": 18,
+      "sha256": "73de5a4232e00f0cb78ac487a3a10af142f34da57d11960758a3e375af8d8caa",
       "pages": 6,
-      "render_pdf_sha256": "a3231fac79b6426305779dfd8551904f9a6ef48315c7ac89dbc380ead60d8c22"
+      "bytes": 46270,
+      "native_math_objects": 18
     }
   ],
-  "main_abstract_words": 150,
-  "main_inclusive_words_excluding_references_with_native_math": 7952,
+  "main_abstract_words": 149,
+  "main_inclusive_words_excluding_references_with_native_math": 7967,
+  "conclusion_words": 341,
   "matched_references": 33,
   "main_embedded_figures": 4,
-  "scope": "Final Word identity following Jewitt attribution revision; no numerical-code change or claim of public Word-binary upload.",
-  "document_binaries_included": false
+  "document_binaries_included": false,
+  "scope": "Current title and final Word identities after title/abstract/conclusion revision and supplement-title synchronization. Computational artifacts unchanged."
 }

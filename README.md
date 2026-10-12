@@ -1,13 +1,15 @@
-# Reproducible climate-finance contract analysis
+# Affordable but Infeasible: Climate-Finance Advances under Reporting Uncertainty
+
+Reproducibility companion and versioned scientific records.
 
 ## Final scientific closure records (12 October 2026)
 
-See [scientific-closure-2026-10-12](scientific-closure-2026-10-12/README.md) for the final source–citation records, bounded scientific consistency results, and final document SHA-256 identities. The underlying calculations and prior revision package are unchanged. Full manuscript and supplement files are excluded; source-access and novelty limits are stated in the closure record. The latest closure update records the incorporated Jewitt et al. (2008) final-theorem comparison, 7,952 inclusive manuscript words, and 25 passing document-delta checks. Cheung final-theorem access remains open.
+See [scientific-closure-2026-10-12](scientific-closure-2026-10-12/README.md) for the final source–citation records, bounded scientific consistency results, and final document SHA-256 identities. The underlying calculations and prior revision package are unchanged. Full manuscript and supplement files are excluded; source-access and novelty limits are stated in the closure record. The latest closure update synchronizes the current manuscript and supplement title, 7,967 inclusive manuscript words, a 149-word abstract and 25 passing document-integrity checks. Cheung final-theorem access remains open.
 
 
 ## Current reproducibility revision: 12 October 2026
 
-The current reproducibility supplement for *Climate Finance under Reporting Uncertainty: A Feasibility Framework Illustrated by UEFA EURO 2024* is in [`revision-2026-10-12/`](revision-2026-10-12/). It adds independently implemented numerical checks, a matched tuned-ramp benchmark, financial decision thresholds and reviewed source evidence. Follow that folder's README to reproduce the current analysis.
+The current reproducibility supplement for *Affordable but Infeasible: Climate-Finance Advances under Reporting Uncertainty* is in [`revision-2026-10-12/`](revision-2026-10-12/). It adds independently implemented numerical checks, a matched tuned-ramp benchmark, financial decision thresholds and reviewed source evidence. Follow that folder's README to reproduce the current analysis. The former title, *Climate Finance under Reporting Uncertainty: A Feasibility Framework Illustrated by UEFA EURO 2024*, remains in historical package records; the current document title and hashes are in the closure records.
 
 The original inputs, tables and four figures remain preserved in [`revision-2026-10-07/`](revision-2026-10-07/) at baseline commit [`9254a7e`](https://github.com/Sami6639/uefa-euro2024-carbon-linked-finance/tree/9254a7eff67bf87310b7935be567832b9314f253). The new revision does not overwrite that baseline. User-authored software is covered by the explicitly scoped MIT licence in the new revision; third-party material is excluded.
 
