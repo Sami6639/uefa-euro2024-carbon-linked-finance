@@ -1,0 +1,14 @@
+Financial decision map derived from Eqs. (5)-(9)
+All comparisons hold the reporting law, required target, advance and other inputs fixed unless the row explicitly changes them.
+
+Lower expected reserve fails: M<C0+hq²/p. Raising the available mean budget helps under a ceiling. Under exact parity, raising B helps this restriction but can violate B≤U−hq²/p. Reducing H, κ or V lowers C0; increasing p reduces hq²/p subject to q≤p. Neither extra expected authority nor larger p relaxes U−C0≥2hq by itself.
+
+Upper expected reserve fails (exact parity only): B>U−hq²/p. Raising U, lowering compulsory B, increasing p, lowering q, or lowering h can help. Reducing H, κ or V does not change this gate. Reinterpreting a fixed exact-payment requirement as a ceiling changes the design problem and requires substantive authorization; it is not an algebraic repair.
+
+Payment span fails: U−C0<2hq. Raising U or lowering C0 through lower H, κ or V helps. Lower q or h reduces the required span. Raising the mean budget or p does not change this inequality. Such changes may address other gates but cannot directly repair this failure.
+
+Slope gate fails: q>p. Raise the permitted derivative cap or lower the required target. Increasing B or U or decreasing H does not repair q>p.
+
+All gates pass: the theorem certifies existence of a contract in the stated class. It does not rank feasible contracts by welfare, establish enforceability across default states, measure actual liquidity requirements, or infer an emissions response.
+
+Boundary qualification: 'helps' means weakly relaxes the named restriction; a nonbinding change may leave the optimum unchanged. At zero reserve in exact parity, a positive target fails even if other inputs are generous. h=0 and p=0 use their separately stated branches.

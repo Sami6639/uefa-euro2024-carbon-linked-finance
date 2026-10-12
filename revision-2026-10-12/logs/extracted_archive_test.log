@@ -1,0 +1,2 @@
+Verified 27 files against manifest_sha256.csv
+PASS: original checksums, 17 scientific output comparisons, and all new independent checks. See logs/.

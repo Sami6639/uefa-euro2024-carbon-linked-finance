@@ -1,8 +1,10 @@
 # Reproducible climate-finance contract analysis
 
-## Current manuscript: 7 October 2026 revision
+## Current reproducibility revision: 12 October 2026
 
-The computational supplement for *Advance Finance and Exposure Limits in Emissions-Linked Funding: An Analytical Framework Illustrated by UEFA EURO 2024* is in [`revision-2026-10-07/`](revision-2026-10-07/). It contains the current manuscript's inputs, code, numerical checks, table sources and four figures. Follow that folder's README to reproduce this version.
+The current reproducibility supplement for *Climate Finance under Reporting Uncertainty: A Feasibility Framework Illustrated by UEFA EURO 2024* is in [`revision-2026-10-12/`](revision-2026-10-12/). It adds independently implemented numerical checks, a matched tuned-ramp benchmark, financial decision thresholds and reviewed source evidence. Follow that folder's README to reproduce the current analysis.
+
+The original inputs, tables and four figures remain preserved in [`revision-2026-10-07/`](revision-2026-10-07/) at baseline commit [`9254a7e`](https://github.com/Sami6639/uefa-euro2024-carbon-linked-finance/tree/9254a7eff67bf87310b7935be567832b9314f253). The new revision does not overwrite that baseline. User-authored software is covered by the explicitly scoped MIT licence in the new revision; third-party material is excluded.
 
 The earlier public analysis is preserved in the [pre-revision snapshot](https://github.com/Sami6639/uefa-euro2024-carbon-linked-finance/tree/4811387251b118b2fbfa6bca9076bc454c54c233). The root-level workflow documented below belongs to that earlier analysis; its tables and figures should not be substituted for those in the current revision folder.
 
@@ -112,4 +114,5 @@ Release text files use canonical LF line endings. CSV writers specify LF explici
 ## Portable release contents
 
 This release contains derived evidence ledgers, the analysis code and tests, generated results and figures, and verified citation metadata. It intentionally omits full-text PDFs/HTML, evidence screenshots, archival literature-preparation scripts and review-working files. Acquisition can retrieve sources, but remote bytes may change; original source hashes are retained in source_manifest.csv. The numerical analysis runs from the included processed files without downloads. Citation registries contain only the final manuscript bibliography, supplied as verified metadata rather than a rerunnable literature-search pipeline. Public availability of a source is not represented as a redistribution licence.
+
 

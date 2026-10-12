@@ -1,0 +1,55 @@
+UEFA REPLICATION AND MATCHED BENCHMARK: EXECUTION RECORD
+Verified 12 October 2026. AI-assisted separate implementation and execution audit; not a signed independent human audit.
+
+FROZEN INPUT
+Repository: https://github.com/Sami6639/uefa-euro2024-carbon-linked-finance
+Commit: 9254a7eff67bf87310b7935be567832b9314f253
+Commit date: 7 October 2026, 05:45:16 UTC
+Manuscript supplement: revision-2026-10-07, not the legacy root workflow.
+31 selected files verified against remote Git blob SHA-1 identities. The 27-file original SHA-256 manifest passed completely before reproduction. Baseline files made read-only. Four PNG assets were recovered from supplied DOCX embedded media and matched exactly to remote Git blob SHA-1, because the connector cannot decode binary blobs. No changed or inferred binary source was substituted.
+Evidence: remote_tree.json, baseline_verification.json, baseline/revision-2026-10-07/manifest_sha256.csv.
+
+CLEAN ENVIRONMENT
+A new Python virtual environment was created without system site packages. Initial offline installation failed because no wheel cache was available. Normal installation from the package registry succeeded. The analysis was then executed with Python -I (isolated Python mode).
+Commands:
+python -m venv venv_clean
+venv_clean/bin/pip install --disable-pip-version-check --retries 0 --timeout 10 -r baseline/revision-2026-10-07/requirements.txt
+python baseline/revision-2026-10-07/code/verify_manifest.py
+Copy the baseline to a writable clean_runtime/package directory.
+MPLCONFIGDIR=/tmp/uefa_clean_mpl XDG_CACHE_HOME=/tmp/uefa_cache venv_clean/bin/python -I clean_runtime/package/code/reproduce.py
+Python 3.12.14; NumPy 2.3.5; SciPy 1.17.0; Matplotlib 3.10.8.
+Complete transitive lock: requirements-lock.txt. Installation log: logs/network_install.log.
+Run log: logs/clean_environment_reproduction.log. Measured clean-run elapsed time: approximately 2.32 seconds on this executor. No random sampling or seed.
+
+ORIGINAL CHECKS: ALL REPRODUCED
+540 exact-uniform slope LPs: 90 cap/mean combinations at 6 resolutions.
+Maximum formula minus grid: n16 0.015355339059328031; n32 0.002500000000000231; n64 0.0006053390593275879; n128 0.00021645017043848969; n256 0.000027566150224783703; n1024 0.000002171251108198935.
+32 ceiling LPs, n1024: maximum gap 0.0000016263945168126792.
+36 Gaussian LPs, n2048, domain ±12 SD with constant global tails: maximum gap 0.000007384304224755667.
+20 exact piecewise-linear constructions: largest mean and derivative discrepancies each 1.1102230246251565e-16.
+These are implementation diagnostics, not substitutes for proof or empirical error-law validation.
+
+OUTPUT COMPARISON
+All 13 scientific CSV/JSON output files reproduced identically (CSV byte equality; JSON parsed equality). All 4 PNG figures reproduced pixel-identically. Runtime JSON excluded from identity comparison because elapsed time changes. Figure numerical series and embedded manuscript image identities verified. Automated comparison of 74 displayed result/category cells in manuscript Tables 2, 3 and 5: 74/74 passed at displayed precision. Tables 1 and 4 and Table A1 contain documentary/literature content, requiring the separate source review rather than a numerical-generation claim.
+Evidence: output_comparison.json; manuscript_cell_comparison.json.
+
+NEW ANALYSIS, SEPARATE FROM ORIGINAL COUNTS
+154 matched uniform cases: optimally thresholded capped linear ramp versus class frontier, under equal floor, cap, rate and budget regime. Maximum absolute gap 7.542577673547157e-14.
+154 independent payment-node LPs at 1024 intervals: maximum formula-to-grid gap 2.171251108198935e-6; minimum -2.220446049250313e-14 (floating-point tolerance).
+36 matched Gaussian cases: adaptive quadrature of the tuned ramp versus Gaussian optimum. Maximum gap 2.456368441983159e-15.
+14 invalid-domain and exact-boundary cases: all passed feasibility classification.
+18 independent advance-maximization payment-node LPs at 2048 intervals: all passed against Table 3 formula. Maximum discrepancy 2.421438694000244e-8 euros. Infeasible exact cases remain infeasible, not zero.
+Acceptance tolerances: ramp comparisons 1e-8 marginal units; node upper-gap 3e-6; negative LP-gap tolerance 1e-7; boundary equality 1e-8; independent advance comparison 1 euro (actual errors far smaller).
+Evidence: analysis/independent_analysis.py; analysis/*.csv; analysis/independent_validation.json; logs/independent_analysis.log.
+
+ECONOMIC RESULT
+No efficiency gain from unrestricted schedule flexibility over the optimally located simple ramp was found. This is an implementability/simplicity result. At the central maximum advance, the ramp reproduces B exactly and target q to within 3.55e-15. Maintaining the tested 90% advance requires €473,403.82 extra cap; maintaining the cap requires €473,403.82 less zero-cost advance. Maximum advance stops responding to additional cap at U/B=1.162334686. These are hypothetical design adjustments and do not estimate welfare or mitigation.
+
+OPEN SCIENCE LIMITS
+The repository has pinned numerical dependencies, source dictionaries, separate source-derived records and source hashes. This revision adds a transitive environment lock, independent code, manifests and an exhibit map. It reads the immutable original baseline without modifying its files. The author approved MIT licensing for original software; see LICENSE and THIRD_PARTY_DATA.md for scope. No third-party full text is redistributed. No release tag or archival DOI is claimed. Older working titles and upload status in the preserved baseline remain historical metadata, not the status of this revision.
+
+ARCHIVE PORTABILITY CHECK
+The delivered ZIP was extracted to a separate /tmp directory and run_all.py executed there with the clean virtual environment. All 27 original checksums, 17 scientific output identities and new checks passed. This verifies that the numerical package does not depend on the original workspace layout. Evidence: logs/extracted_archive_test.log.
+
+PUBLIC-SUBTREE SCOPE
+Raw connector responses, local acquisition scripts, environment directories, authoring previews and package-building logs are omitted. Their original paths in this historical record describe the audit workspace. The retained logs and numerical command suffice to reproduce the scientific checks. The original baseline manifest remains included.

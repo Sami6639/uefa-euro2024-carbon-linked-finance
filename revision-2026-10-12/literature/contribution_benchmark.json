@@ -1,0 +1,30 @@
+[
+  {
+    "reference": "Lo 2017",
+    "established_result": "Neyman\u2013Pearson allocation of unit-bounded derivatives under integral constraints.",
+    "specified_difference": "Fixed local obligation; advance floor; separate mean and realised exposure.",
+    "decision": "Explicit uniform reserve and span tests.",
+    "value": "Shows which authority must change; no new slope-allocation method."
+  },
+  {
+    "reference": "Cheung et al 2023",
+    "established_result": "Multiple integral restrictions and dual reduction for reinsurance.",
+    "specified_difference": "Uniform location law and climate-finance interpretation of the bounds.",
+    "decision": "Closed-form feasible region and advance ceiling.",
+    "value": "Converts a general optimisation framework into a transparent screening rule."
+  },
+  {
+    "reference": "Jewitt et al 2008",
+    "established_result": "Optimal moral-hazard contracts with upper and lower payment bounds.",
+    "specified_difference": "Required obligation exogenous; effort and participation not optimised.",
+    "decision": "Feasibility before behavioural or welfare selection.",
+    "value": "Prevents a bounded-payment certificate from being labelled an optimal incentive contract."
+  },
+  {
+    "reference": "Birulin and Izmalkov 2022",
+    "established_result": "Advance shares in procurement with funding and completion constraints.",
+    "specified_difference": "Advance fixed; reporting-linked donor schedule; no auction or default choice.",
+    "decision": "Test secured cash against expected and peak exposure.",
+    "value": "Separates ability to release cash from a promise that a project will finish."
+  }
+]

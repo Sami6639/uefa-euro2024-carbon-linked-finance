@@ -1,0 +1,23 @@
+Scenario design and decision-value note, 12 October 2026
+This is a retrospective analytical design note, not a preregistration and not an empirical calibration. The original central 10% relative SD, 90% advance, 110% cap and 75%-of-rate target deliberately separate expected affordability from maximum-exposure feasibility. They are illustrative points in decision regions, not estimates of typical UEFA conditions. Alternative caps (105%,110%,120%), costs (0%;2% plus €25,000;5% plus €100,000), reporting SD (5%–20%), and the normalized LP grid span passing and failing cases without selecting a favourable benchmark outcome.
+
+For h>0,p>0, target 0≤q≤p, let r=hq²/p, s=2hq and C=(1+κ)H+V. Ceiling feasibility requires B−C≥r and U−C≥s. Exact feasibility additionally requires U−B≥r. Negative resource margins indicate infeasibility; they are not clipped to zero maximum advances. For a feasible nonnegative advance, Hmax=[min(B−r,U−s)−V]/(1+κ), subject to its numerator being nonnegative and the exact upper-reserve gate where relevant.
+
+Constraint-to-remedy map:
+1. Lower mean reserve B−C−r<0: more B, lower H/κ/V, lower q/h, or greater p can help. A larger U alone does not repair this failure. For exact spending, raising B must also preserve U−B≥r.
+2. Upper reserve U−B−r<0 (exact only): raise U, lower compulsory B, lower q/h, or greater p. Changing H/κ/V does not change this gate. A ceiling removes compulsory spending, not either remaining constraint.
+3. Span U−C−s<0: raise U, lower H/κ/V, lower q or h. A larger B or p alone cannot repair it.
+4. Rate q>p: increase permissible p or reduce q, then recheck all resource restrictions.
+5. At equality, feasibility is retained; no artificial safety buffer is assumed. Operational prudence may require a buffer but none is estimated here.
+
+Critical thresholds (subject to other gates):
+qmax equals the appropriate min frontier. Bmin=C+hq²/p. Exact Bmax=U−hq²/p. Umin,ceiling=C+2hq; Umin,exact=max(C+2hq,B+hq²/p). pmin=max(q,hq²/(B−C)) for a ceiling, also hq²/(U−B) for exact parity, only with positive denominators; zero denominators admit only q=0. hmax=min[p(B−C)/q²,(U−C)/(2q)] for a ceiling and also p(U−B)/q² for exact, when q>0. Divide hmax by sqrt(3)μ for relative-SD thresholds. Cost tolerance is (1+κ)H+V≤min(B−r,U−s): for H>0, κmax=[min(B−r,U−s)−V]/H−1; Vmax=min(B−r,U−s)−(1+κ)H. Negative maxima mean no admissible nonnegative cost at the tested H. The cases q=0 and p=0 are handled by the boundary theorem, not division by zero.
+
+At the original 90% advance, p≥24.3502029266 would satisfy the mean reserve, yet no p repairs the failing span. The target must fall to at most €14.4377646897/t if other inputs remain fixed. Relative SD must fall to 7.70014116782% for full feasibility; the mean gate alone allows 10.2668548904%. At an alternative 80% advance, zero loading leaves €319,096.18 for fixed donor costs; zero fixed cost permits a 5.0330627645% loading. These are one-at-a-time cost tolerances and must not be added together.
+
+Positive/negative synthetic stress cases (h=p=1,C=0,q=.5):
+B=.1,U=2: lower reserve fails, span passes; exact and ceiling fail.
+B=1.9,U=2: lower reserve and span pass, exact upper reserve fails; ceiling passes.
+B=.375,U=.75: both mean reserves pass, span fails; both regimes fail.
+B=1,U=2: all gates pass; both regimes pass.
+The first three cases are already present in Table2; the fourth explicitly shows a passing comparator. They are not observed projects.

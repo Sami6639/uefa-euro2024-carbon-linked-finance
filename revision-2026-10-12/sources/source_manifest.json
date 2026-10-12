@@ -1,0 +1,20 @@
+[
+  {
+    "file": "esg.pdf",
+    "sha256": "35953e53d7d6d6438390dc185d07c7eaf1b624bb3ddf53a94c5dde3221aa4992",
+    "url": "https://editorial.uefa.com/resources/0292-1c398b01c18b-b74c8334b99b-1000/uefa_euro_2024_esg_report.pdf",
+    "checked_date": "2026-10-12"
+  },
+  {
+    "file": "faq.pdf",
+    "sha256": "8554e63b80b20ab5efdb899c519925a72f53180d7cbf1fc55da56e7e18890297",
+    "url": "https://editorial.uefa.com/resources/0288-19bd422e1de6-291beb7a6d4b-1000/climate_fund_faq.pdf",
+    "checked_date": "2026-10-12"
+  },
+  {
+    "file": "guidelines.pdf",
+    "sha256": "0c7a054b0be7d7c8b53a8a0eeb4f71743d494944377224ad14be8a636797feb9",
+    "url": "https://editorial.uefa.com/resources/0288-19bd443cdc66-b6baa12522d2-1000/uefa_euro_2024_climate_forderrichtlinien_final.pdf",
+    "checked_date": "2026-10-12"
+  }
+]

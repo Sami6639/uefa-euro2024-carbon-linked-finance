@@ -1,0 +1,87 @@
+[
+  {
+    "file": "audit_summary.json",
+    "comparison": "JSON parsed equality",
+    "identical": true
+  },
+  {
+    "file": "ceiling_lp_audit.csv",
+    "comparison": "CSV byte equality",
+    "identical": true
+  },
+  {
+    "file": "central_results.json",
+    "comparison": "JSON parsed equality",
+    "identical": true
+  },
+  {
+    "file": "constructive_audit.csv",
+    "comparison": "CSV byte equality",
+    "identical": true
+  },
+  {
+    "file": "figure1.png",
+    "comparison": "PNG pixel equality",
+    "identical": true
+  },
+  {
+    "file": "figure1_series.csv",
+    "comparison": "CSV byte equality",
+    "identical": true
+  },
+  {
+    "file": "figure2.png",
+    "comparison": "PNG pixel equality",
+    "identical": true
+  },
+  {
+    "file": "figure2_series.csv",
+    "comparison": "CSV byte equality",
+    "identical": true
+  },
+  {
+    "file": "figure3.png",
+    "comparison": "PNG pixel equality",
+    "identical": true
+  },
+  {
+    "file": "figure3_series.csv",
+    "comparison": "CSV byte equality",
+    "identical": true
+  },
+  {
+    "file": "figure4.png",
+    "comparison": "PNG pixel equality",
+    "identical": true
+  },
+  {
+    "file": "figure4_series.csv",
+    "comparison": "CSV byte equality",
+    "identical": true
+  },
+  {
+    "file": "gaussian_lp_audit.csv",
+    "comparison": "CSV byte equality",
+    "identical": true
+  },
+  {
+    "file": "table2_constraint_failures.csv",
+    "comparison": "CSV byte equality",
+    "identical": true
+  },
+  {
+    "file": "table3_advances.csv",
+    "comparison": "CSV byte equality",
+    "identical": true
+  },
+  {
+    "file": "table5_dispersion.csv",
+    "comparison": "CSV byte equality",
+    "identical": true
+  },
+  {
+    "file": "uniform_lp_audit.csv",
+    "comparison": "CSV byte equality",
+    "identical": true
+  }
+]
