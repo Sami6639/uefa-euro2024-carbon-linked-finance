@@ -1,0 +1,1434 @@
+{
+  "version": "2.0.0",
+  "public_commit": "05d5f580bfe9a1b216fe900983c414abede0d484",
+  "checks": [
+    {
+      "group": "Published manifest integrity",
+      "target": "revision-2026-10-12/publication_manifest_sha256.csv",
+      "passed": true,
+      "detail": "741237a2e9ae72677fc3aaae9c2a5701eb29d9bb201728bdf63a6dd8d7b1c2ac"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/04_Independent_Replication_Log.txt",
+      "passed": true,
+      "detail": "fa0caa2937c6ea6fe73e8fbc439738f06fd92a7461cc2a0e2e6fa9b9e5537d1e"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/05_Table_Figure_Code_Map.xlsx",
+      "passed": true,
+      "detail": "032d8b58223f77425c1891f829d2c6459a4b9f6643292ef0a3c673cae6f4fa9e"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/LICENSE",
+      "passed": true,
+      "detail": "32336cb3ff95771a712ac10272e6c582cf1d1ae59fe8bc81dad81069c77b24d8"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/README.md",
+      "passed": true,
+      "detail": "4a97d0ba5f570f836e80ff928a0a6eb1ed96b4d8ee84a9d53d3f00138a74365d"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/THIRD_PARTY_DATA.md",
+      "passed": true,
+      "detail": "66572969fa2e38e01c41e9c3b519b2dd9f098cdbf8870206fdc3d5dfc10d4ac9"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/analysis/advance_optimization_audit.csv",
+      "passed": true,
+      "detail": "1e2f45f012396ee8845acbf8ce9b7c81ceb635011af18d97d892a5e872051600"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/analysis/boundary_domain_audit.csv",
+      "passed": true,
+      "detail": "27fd17c3bc57ed3ecfe482d9909379372a4f46e949acdaae96b396a7d6849d07"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/analysis/gaussian_tuned_ramp_benchmark.csv",
+      "passed": true,
+      "detail": "a47952e8455b66051d65a16a3e67897c3d227d13f0926c34fce4e8e22aa7b0d0"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/analysis/independent_analysis.py",
+      "passed": true,
+      "detail": "df968d485a6425b5e6d2ed2830778b613adce5a75a97e967f2ce4767aabc49d9"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/analysis/independent_validation.json",
+      "passed": true,
+      "detail": "f02f8fc602593d1e28cc96bafb5a61f37b37954cf52da11eef14afb6fe25e741"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/analysis/new_analysis_summary.json",
+      "passed": true,
+      "detail": "5f72ca85796b719b8407fb828f9493e5033978f2662d05e4a94438cc04ebefbc"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/analysis/scenario_design_and_decision_map.txt",
+      "passed": true,
+      "detail": "ef7194d59197ec489eaf6a9e7a8f91deef5e30fec8eb10974fa649acfc6aab45"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/analysis/uniform_tuned_ramp_benchmark.csv",
+      "passed": true,
+      "detail": "e029a1a41d4832d900a14f24c4b111128833bd268a052d62e12e56af94ca14b6"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/literature/contribution_benchmark.json",
+      "passed": true,
+      "detail": "bf888b690d7217018d77f32765edbefa52ab4295180df8f45a4cfa09e2ab85f7"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/logs/clean_environment_reproduction.log",
+      "passed": true,
+      "detail": "0f42f28886a77947623fafa7901c58968c8511f3985c849bd7836fa9d6c7aa1a"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/logs/extracted_archive_test.log",
+      "passed": true,
+      "detail": "0776abcb04c5e79ab6bb20a72d82f062b4e6da03eab390f610a8713394555cf3"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/logs/independent_analysis.log",
+      "passed": true,
+      "detail": "7074f49bf7bb03e1aba38f4e7d4b242a437550bcb95501c01fd0b3a1d411fcfa"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/logs/portable_run.log",
+      "passed": true,
+      "detail": "0776abcb04c5e79ab6bb20a72d82f062b4e6da03eab390f610a8713394555cf3"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/manuscript_cell_comparison.json",
+      "passed": true,
+      "detail": "8718f90dfc0d8e2f06ebb2ae31ffc31b75e4270b1215625b36548ed79546e234"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/math/decision_map_v1.txt",
+      "passed": true,
+      "detail": "bd44becbf4754d8beaad1add14bf543bfa959c9a5c8acba06df32368fcd76db2"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/math/independent_math_audit_v1.py",
+      "passed": true,
+      "detail": "138768a1a6e04569155f21f09d3331ee22bd24695004a591dc8ddfc25ec80f56"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/math/independent_math_results_v1.json",
+      "passed": true,
+      "detail": "10ca8d31fe34953fbc35d871df60c46b1c9e2c4509485548bc065bd8f8fdfa50"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/output_comparison.json",
+      "passed": true,
+      "detail": "6512041a52bd0f266d0d2889bea322c46d9491c228cbd595519f23073074c1fd"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/requirements-lock.txt",
+      "passed": true,
+      "detail": "0c03b517e039ec6d1b1e4051e6d532478b383a28804532a87658c04dbd373158"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/run_all.py",
+      "passed": true,
+      "detail": "0300aa371a065ce56aebe6c7bcbe8bf56d3f8a293ea52ab87bec6c06fd4419a8"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/sources/institutional_claim_register.csv",
+      "passed": true,
+      "detail": "22d581119b43de4bca3b4f112b784c7ba15bee140dd162d9a8fe7c287a3b047c"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/sources/institutional_claim_register.json",
+      "passed": true,
+      "detail": "b0dade7006b3bae0dfa1d409c0a6199e3938cf4025123bd3f0456464643a6391"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/sources/public_cashflow_search_log.md",
+      "passed": true,
+      "detail": "6454989d5add90324e3b851cee37c75a8dcbd712521ac410bb29f794ffa4e2fc"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/sources/scenario_justification_2026-10-12.md",
+      "passed": true,
+      "detail": "c1661c951e6e0b097cdc6f716b93b640005a78e2bbc082376f668a0d7a201fe4"
+    },
+    {
+      "group": "Published payload integrity",
+      "target": "revision-2026-10-12/sources/source_manifest.json",
+      "passed": true,
+      "detail": "8745333d8d244237322e1b05386ef15f29720ead05ca01158d15cc28fe64bc9c"
+    },
+    {
+      "group": "Native mathematics",
+      "target": "08_Final_Clean_Manuscript.docx",
+      "passed": true,
+      "detail": "178 math objects compared byte-canonically with audited prior DOCX"
+    },
+    {
+      "group": "Review markup",
+      "target": "08_Final_Clean_Manuscript.docx",
+      "passed": true,
+      "detail": "No tracked insertions/deletions or comment markers"
+    },
+    {
+      "group": "Embedded figure",
+      "target": "Figure 1",
+      "passed": true,
+      "detail": {
+        "source": "revision-2026-10-07/results/figure1.png",
+        "sha256": "328b4dbdafd1057683a34f37cc3a867530d9fd1c2373bab8d1dcdc27f79a0ba9",
+        "docx_media": [
+          "word/media/image1.png"
+        ]
+      }
+    },
+    {
+      "group": "Embedded figure",
+      "target": "Figure 2",
+      "passed": true,
+      "detail": {
+        "source": "revision-2026-10-07/results/figure2.png",
+        "sha256": "1ac458b3fc43d17033f3fc80b9258fb85a81af9bdf6f9cfbab71a6a0f5563b6d",
+        "docx_media": [
+          "word/media/image2.png"
+        ]
+      }
+    },
+    {
+      "group": "Embedded figure",
+      "target": "Figure 3",
+      "passed": true,
+      "detail": {
+        "source": "revision-2026-10-07/results/figure3.png",
+        "sha256": "239583f7cc9059c7c0344f2e89327d227391aab76d3c0db646002148836b00d1",
+        "docx_media": [
+          "word/media/image3.png"
+        ]
+      }
+    },
+    {
+      "group": "Embedded figure",
+      "target": "Figure 4",
+      "passed": true,
+      "detail": {
+        "source": "revision-2026-10-07/results/figure4.png",
+        "sha256": "a521e99a9fd8db180fedc1853a70b12cb7d00c41f7dce593eab08acfc178fb1d",
+        "docx_media": [
+          "word/media/image4.png"
+        ]
+      }
+    },
+    {
+      "group": "Native mathematics",
+      "target": "Supplementary_Information.docx",
+      "passed": true,
+      "detail": "10 math objects compared byte-canonically with audited prior DOCX"
+    },
+    {
+      "group": "Review markup",
+      "target": "Supplementary_Information.docx",
+      "passed": true,
+      "detail": "No tracked insertions/deletions or comment markers"
+    },
+    {
+      "group": "Table shape",
+      "target": "Table 2",
+      "passed": true,
+      "detail": "6 source scenarios"
+    },
+    {
+      "group": "Table shape",
+      "target": "Table 3",
+      "passed": true,
+      "detail": "9 source scenarios"
+    },
+    {
+      "group": "Table shape",
+      "target": "Table 5",
+      "passed": true,
+      "detail": "8 source scenarios"
+    },
+    {
+      "group": "Table values",
+      "target": "Tables 2 3 5",
+      "passed": true,
+      "detail": "121/121 source-bound scenario/category/result cells"
+    },
+    {
+      "group": "Supplement S5 calculation",
+      "target": "cap_increase_for_90pct",
+      "passed": true,
+      "detail": "473,403.82"
+    },
+    {
+      "group": "Supplement S5 calculation",
+      "target": "advance_reduction_from_90pct",
+      "passed": true,
+      "detail": "473,403.82"
+    },
+    {
+      "group": "Supplement S5 calculation",
+      "target": "cap_at_mean_limited_transition",
+      "passed": true,
+      "detail": "9,211,502.39"
+    },
+    {
+      "group": "Supplement S5 calculation",
+      "target": "cap_ratio_at_mean_limited_transition",
+      "passed": true,
+      "detail": "1.162334686"
+    },
+    {
+      "group": "Supplement S5 calculation",
+      "target": "rate_needed_for_mean_at_90pct",
+      "passed": true,
+      "detail": "24.35020293"
+    },
+    {
+      "group": "Supplement S5 calculation",
+      "target": "max_target_at_90pct",
+      "passed": true,
+      "detail": "14.43776469"
+    },
+    {
+      "group": "Supplement S5 calculation",
+      "target": "fixed_cost_max_at_80pct_no_loading",
+      "passed": true,
+      "detail": "319,096.18"
+    },
+    {
+      "group": "Supplement S5 calculation",
+      "target": "loading_max_at_80pct_zero_fixed_cost",
+      "passed": true,
+      "detail": "5.033063%"
+    }
+  ],
+  "cell_checks": [
+    {
+      "table": 2,
+      "row": 1,
+      "column": 0,
+      "variable": "case",
+      "expected": "Lower mean",
+      "observed": "Lower mean",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 1,
+      "column": 1,
+      "variable": "regime",
+      "expected": "Exact",
+      "observed": "Exact",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 1,
+      "column": 2,
+      "variable": "lower_margin",
+      "expected": "-0.150",
+      "observed": "-0.150",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 1,
+      "column": 3,
+      "variable": "upper_margin",
+      "expected": "1.650",
+      "observed": "1.650",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 1,
+      "column": 4,
+      "variable": "span_margin",
+      "expected": "1.000",
+      "observed": "1.000",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 1,
+      "column": 5,
+      "variable": "maximum_obligation",
+      "expected": "0.316",
+      "observed": "0.316",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 2,
+      "column": 0,
+      "variable": "case",
+      "expected": "Lower mean",
+      "observed": "Lower mean",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 2,
+      "column": 1,
+      "variable": "regime",
+      "expected": "Ceiling",
+      "observed": "Ceiling",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 2,
+      "column": 2,
+      "variable": "lower_margin",
+      "expected": "-0.150",
+      "observed": "-0.150",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 2,
+      "column": 3,
+      "variable": "upper_margin",
+      "expected": "Not required",
+      "observed": "Not required",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 2,
+      "column": 4,
+      "variable": "span_margin",
+      "expected": "1.000",
+      "observed": "1.000",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 2,
+      "column": 5,
+      "variable": "maximum_obligation",
+      "expected": "0.316",
+      "observed": "0.316",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 3,
+      "column": 0,
+      "variable": "case",
+      "expected": "Upper mean",
+      "observed": "Upper mean",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 3,
+      "column": 1,
+      "variable": "regime",
+      "expected": "Exact",
+      "observed": "Exact",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 3,
+      "column": 2,
+      "variable": "lower_margin",
+      "expected": "1.650",
+      "observed": "1.650",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 3,
+      "column": 3,
+      "variable": "upper_margin",
+      "expected": "-0.150",
+      "observed": "-0.150",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 3,
+      "column": 4,
+      "variable": "span_margin",
+      "expected": "1.000",
+      "observed": "1.000",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 3,
+      "column": 5,
+      "variable": "maximum_obligation",
+      "expected": "0.316",
+      "observed": "0.316",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 4,
+      "column": 0,
+      "variable": "case",
+      "expected": "Upper mean",
+      "observed": "Upper mean",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 4,
+      "column": 1,
+      "variable": "regime",
+      "expected": "Ceiling",
+      "observed": "Ceiling",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 4,
+      "column": 2,
+      "variable": "lower_margin",
+      "expected": "1.650",
+      "observed": "1.650",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 4,
+      "column": 3,
+      "variable": "upper_margin",
+      "expected": "Not required",
+      "observed": "Not required",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 4,
+      "column": 4,
+      "variable": "span_margin",
+      "expected": "1.000",
+      "observed": "1.000",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 4,
+      "column": 5,
+      "variable": "maximum_obligation",
+      "expected": "1.000",
+      "observed": "1.000",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 5,
+      "column": 0,
+      "variable": "case",
+      "expected": "Peak span",
+      "observed": "Peak span",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 5,
+      "column": 1,
+      "variable": "regime",
+      "expected": "Exact",
+      "observed": "Exact",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 5,
+      "column": 2,
+      "variable": "lower_margin",
+      "expected": "0.125",
+      "observed": "0.125",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 5,
+      "column": 3,
+      "variable": "upper_margin",
+      "expected": "0.125",
+      "observed": "0.125",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 5,
+      "column": 4,
+      "variable": "span_margin",
+      "expected": "-0.250",
+      "observed": "-0.250",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 5,
+      "column": 5,
+      "variable": "maximum_obligation",
+      "expected": "0.375",
+      "observed": "0.375",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 6,
+      "column": 0,
+      "variable": "case",
+      "expected": "Peak span",
+      "observed": "Peak span",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 6,
+      "column": 1,
+      "variable": "regime",
+      "expected": "Ceiling",
+      "observed": "Ceiling",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 6,
+      "column": 2,
+      "variable": "lower_margin",
+      "expected": "0.125",
+      "observed": "0.125",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 6,
+      "column": 3,
+      "variable": "upper_margin",
+      "expected": "Not required",
+      "observed": "Not required",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 6,
+      "column": 4,
+      "variable": "span_margin",
+      "expected": "-0.250",
+      "observed": "-0.250",
+      "passed": true
+    },
+    {
+      "table": 2,
+      "row": 6,
+      "column": 5,
+      "variable": "maximum_obligation",
+      "expected": "0.375",
+      "observed": "0.375",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 1,
+      "column": 0,
+      "variable": "cap_ratio",
+      "expected": "1.05",
+      "observed": "1.05",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 1,
+      "column": 1,
+      "variable": "loading",
+      "expected": "0%",
+      "observed": "0%",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 1,
+      "column": 2,
+      "variable": "fixed_cost_eur",
+      "expected": "0",
+      "observed": "0",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 1,
+      "column": 3,
+      "variable": "exact_advance_eur",
+      "expected": "Infeasible",
+      "observed": "Infeasible",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 1,
+      "column": 4,
+      "variable": "ceiling_advance_eur",
+      "expected": "6,262,846",
+      "observed": "6,262,846",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 2,
+      "column": 0,
+      "variable": "cap_ratio",
+      "expected": "1.05",
+      "observed": "1.05",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 2,
+      "column": 1,
+      "variable": "loading",
+      "expected": "2%",
+      "observed": "2%",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 2,
+      "column": 2,
+      "variable": "fixed_cost_eur",
+      "expected": "25,000",
+      "observed": "25,000",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 2,
+      "column": 3,
+      "variable": "exact_advance_eur",
+      "expected": "Infeasible",
+      "observed": "Infeasible",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 2,
+      "column": 4,
+      "variable": "ceiling_advance_eur",
+      "expected": "6,115,535",
+      "observed": "6,115,535",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 3,
+      "column": 0,
+      "variable": "cap_ratio",
+      "expected": "1.05",
+      "observed": "1.05",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 3,
+      "column": 1,
+      "variable": "loading",
+      "expected": "5%",
+      "observed": "5%",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 3,
+      "column": 2,
+      "variable": "fixed_cost_eur",
+      "expected": "100,000",
+      "observed": "100,000",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 3,
+      "column": 3,
+      "variable": "exact_advance_eur",
+      "expected": "Infeasible",
+      "observed": "Infeasible",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 3,
+      "column": 4,
+      "variable": "ceiling_advance_eur",
+      "expected": "5,869,377",
+      "observed": "5,869,377",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 4,
+      "column": 0,
+      "variable": "cap_ratio",
+      "expected": "1.10",
+      "observed": "1.10",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 4,
+      "column": 1,
+      "variable": "loading",
+      "expected": "0%",
+      "observed": "0%",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 4,
+      "column": 2,
+      "variable": "fixed_cost_eur",
+      "expected": "0",
+      "observed": "0",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 4,
+      "column": 3,
+      "variable": "exact_advance_eur",
+      "expected": "6,659,096",
+      "observed": "6,659,096",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 4,
+      "column": 4,
+      "variable": "ceiling_advance_eur",
+      "expected": "6,659,096",
+      "observed": "6,659,096",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 5,
+      "column": 0,
+      "variable": "cap_ratio",
+      "expected": "1.10",
+      "observed": "1.10",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 5,
+      "column": 1,
+      "variable": "loading",
+      "expected": "2%",
+      "observed": "2%",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 5,
+      "column": 2,
+      "variable": "fixed_cost_eur",
+      "expected": "25,000",
+      "observed": "25,000",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 5,
+      "column": 3,
+      "variable": "exact_advance_eur",
+      "expected": "6,504,016",
+      "observed": "6,504,016",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 5,
+      "column": 4,
+      "variable": "ceiling_advance_eur",
+      "expected": "6,504,016",
+      "observed": "6,504,016",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 6,
+      "column": 0,
+      "variable": "cap_ratio",
+      "expected": "1.10",
+      "observed": "1.10",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 6,
+      "column": 1,
+      "variable": "loading",
+      "expected": "5%",
+      "observed": "5%",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 6,
+      "column": 2,
+      "variable": "fixed_cost_eur",
+      "expected": "100,000",
+      "observed": "100,000",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 6,
+      "column": 3,
+      "variable": "exact_advance_eur",
+      "expected": "6,246,758",
+      "observed": "6,246,758",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 6,
+      "column": 4,
+      "variable": "ceiling_advance_eur",
+      "expected": "6,246,758",
+      "observed": "6,246,758",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 7,
+      "column": 0,
+      "variable": "cap_ratio",
+      "expected": "1.20",
+      "observed": "1.20",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 7,
+      "column": 1,
+      "variable": "loading",
+      "expected": "0%",
+      "observed": "0%",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 7,
+      "column": 2,
+      "variable": "fixed_cost_eur",
+      "expected": "0",
+      "observed": "0",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 7,
+      "column": 3,
+      "variable": "exact_advance_eur",
+      "expected": "7,153,099",
+      "observed": "7,153,099",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 7,
+      "column": 4,
+      "variable": "ceiling_advance_eur",
+      "expected": "7,153,099",
+      "observed": "7,153,099",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 8,
+      "column": 0,
+      "variable": "cap_ratio",
+      "expected": "1.20",
+      "observed": "1.20",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 8,
+      "column": 1,
+      "variable": "loading",
+      "expected": "2%",
+      "observed": "2%",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 8,
+      "column": 2,
+      "variable": "fixed_cost_eur",
+      "expected": "25,000",
+      "observed": "25,000",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 8,
+      "column": 3,
+      "variable": "exact_advance_eur",
+      "expected": "6,988,332",
+      "observed": "6,988,332",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 8,
+      "column": 4,
+      "variable": "ceiling_advance_eur",
+      "expected": "6,988,332",
+      "observed": "6,988,332",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 9,
+      "column": 0,
+      "variable": "cap_ratio",
+      "expected": "1.20",
+      "observed": "1.20",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 9,
+      "column": 1,
+      "variable": "loading",
+      "expected": "5%",
+      "observed": "5%",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 9,
+      "column": 2,
+      "variable": "fixed_cost_eur",
+      "expected": "100,000",
+      "observed": "100,000",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 9,
+      "column": 3,
+      "variable": "exact_advance_eur",
+      "expected": "6,717,237",
+      "observed": "6,717,237",
+      "passed": true
+    },
+    {
+      "table": 3,
+      "row": 9,
+      "column": 4,
+      "variable": "ceiling_advance_eur",
+      "expected": "6,717,237",
+      "observed": "6,717,237",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 1,
+      "column": 1,
+      "variable": "mean_test_90pct",
+      "expected": "Pass",
+      "observed": "Pass",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 1,
+      "column": 2,
+      "variable": "span_test_90pct",
+      "expected": "Pass",
+      "observed": "Pass",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 1,
+      "column": 3,
+      "variable": "exact_regime_exists",
+      "expected": "Yes",
+      "observed": "Yes",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 1,
+      "column": 4,
+      "variable": "max_ceiling_advance_percent",
+      "expected": "95.130",
+      "observed": "95.130",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 1,
+      "column": 0,
+      "variable": "relative_sd_percent",
+      "expected": "5.0",
+      "observed": "5.0",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 2,
+      "column": 1,
+      "variable": "mean_test_90pct",
+      "expected": "Pass",
+      "observed": "Pass",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 2,
+      "column": 2,
+      "variable": "span_test_90pct",
+      "expected": "Pass",
+      "observed": "Pass",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 2,
+      "column": 3,
+      "variable": "exact_regime_exists",
+      "expected": "Yes",
+      "observed": "Yes",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 2,
+      "column": 4,
+      "variable": "max_ceiling_advance_percent",
+      "expected": "90.520",
+      "observed": "90.520",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 2,
+      "column": 0,
+      "variable": "relative_sd_percent",
+      "expected": "7.5",
+      "observed": "7.5",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 3,
+      "column": 1,
+      "variable": "mean_test_90pct",
+      "expected": "Pass",
+      "observed": "Pass",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 3,
+      "column": 2,
+      "variable": "span_test_90pct",
+      "expected": "Pass",
+      "observed": "Pass",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 3,
+      "column": 3,
+      "variable": "exact_regime_exists",
+      "expected": "Yes",
+      "observed": "Yes",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 3,
+      "column": 4,
+      "variable": "max_ceiling_advance_percent",
+      "expected": "90.000",
+      "observed": "90.000",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 3,
+      "column": 0,
+      "variable": "relative_sd_percent",
+      "expected": "7.70014",
+      "observed": "7.70014",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 4,
+      "column": 1,
+      "variable": "mean_test_90pct",
+      "expected": "Pass",
+      "observed": "Pass",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 4,
+      "column": 2,
+      "variable": "span_test_90pct",
+      "expected": "Fail",
+      "observed": "Fail",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 4,
+      "column": 3,
+      "variable": "exact_regime_exists",
+      "expected": "Yes",
+      "observed": "Yes",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 4,
+      "column": 4,
+      "variable": "max_ceiling_advance_percent",
+      "expected": "84.026",
+      "observed": "84.026",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 4,
+      "column": 0,
+      "variable": "relative_sd_percent",
+      "expected": "10.0",
+      "observed": "10.0",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 5,
+      "column": 1,
+      "variable": "mean_test_90pct",
+      "expected": "Pass",
+      "observed": "Pass",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 5,
+      "column": 2,
+      "variable": "span_test_90pct",
+      "expected": "Fail",
+      "observed": "Fail",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 5,
+      "column": 3,
+      "variable": "exact_regime_exists",
+      "expected": "Yes",
+      "observed": "Yes",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 5,
+      "column": 4,
+      "variable": "max_ceiling_advance_percent",
+      "expected": "83.333",
+      "observed": "83.333",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 5,
+      "column": 0,
+      "variable": "relative_sd_percent",
+      "expected": "10.26685",
+      "observed": "10.26685",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 6,
+      "column": 1,
+      "variable": "mean_test_90pct",
+      "expected": "Fail",
+      "observed": "Fail",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 6,
+      "column": 2,
+      "variable": "span_test_90pct",
+      "expected": "Fail",
+      "observed": "Fail",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 6,
+      "column": 3,
+      "variable": "exact_regime_exists",
+      "expected": "No",
+      "observed": "No",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 6,
+      "column": 4,
+      "variable": "max_ceiling_advance_percent",
+      "expected": "77.533",
+      "observed": "77.533",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 6,
+      "column": 0,
+      "variable": "relative_sd_percent",
+      "expected": "12.5",
+      "observed": "12.5",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 7,
+      "column": 1,
+      "variable": "mean_test_90pct",
+      "expected": "Fail",
+      "observed": "Fail",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 7,
+      "column": 2,
+      "variable": "span_test_90pct",
+      "expected": "Fail",
+      "observed": "Fail",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 7,
+      "column": 3,
+      "variable": "exact_regime_exists",
+      "expected": "No",
+      "observed": "No",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 7,
+      "column": 4,
+      "variable": "max_ceiling_advance_percent",
+      "expected": "71.040",
+      "observed": "71.040",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 7,
+      "column": 0,
+      "variable": "relative_sd_percent",
+      "expected": "15.0",
+      "observed": "15.0",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 8,
+      "column": 1,
+      "variable": "mean_test_90pct",
+      "expected": "Fail",
+      "observed": "Fail",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 8,
+      "column": 2,
+      "variable": "span_test_90pct",
+      "expected": "Fail",
+      "observed": "Fail",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 8,
+      "column": 3,
+      "variable": "exact_regime_exists",
+      "expected": "No",
+      "observed": "No",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 8,
+      "column": 4,
+      "variable": "max_ceiling_advance_percent",
+      "expected": "58.053",
+      "observed": "58.053",
+      "passed": true
+    },
+    {
+      "table": 5,
+      "row": 8,
+      "column": 0,
+      "variable": "relative_sd_percent",
+      "expected": "20.0",
+      "observed": "20.0",
+      "passed": true
+    }
+  ],
+  "summary": {
+    "checks": 51,
+    "passed": 51,
+    "table_cells": 121,
+    "table_cells_passed": 121
+  },
+  "scope": "Final document identity and output mapping; earlier numerical execution reused, not rerun for this publication."
+}

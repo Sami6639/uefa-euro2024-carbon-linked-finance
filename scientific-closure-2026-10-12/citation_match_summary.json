@@ -1,0 +1,13 @@
+{
+  "sha256": "1af7efe8f134787c5967691518b7f209262222cb53a9d5bbb12500b987eaf12d",
+  "reference_count": 33,
+  "all_references_cited": true,
+  "unique_matching_references": true,
+  "orphan_author_year_citations": "None identified in independent text/table scan; groups retained for inspection",
+  "removed_dependency": [
+    {
+      "author": "Wang et al. (2024)",
+      "reason": "Unnecessary detailed primary-content dependency removed; supported Cavallin boundary statement retained."
+    }
+  ]
+}

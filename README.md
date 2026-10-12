@@ -1,5 +1,10 @@
 # Reproducible climate-finance contract analysis
 
+## Final scientific closure records (12 October 2026)
+
+See [scientific-closure-2026-10-12](scientific-closure-2026-10-12/README.md) for the final source–citation records, bounded scientific consistency results, and final document SHA-256 identities. The underlying calculations and prior revision package are unchanged. Full manuscript and supplement files are excluded; source-access and novelty limits are stated in the closure record.
+
+
 ## Current reproducibility revision: 12 October 2026
 
 The current reproducibility supplement for *Climate Finance under Reporting Uncertainty: A Feasibility Framework Illustrated by UEFA EURO 2024* is in [`revision-2026-10-12/`](revision-2026-10-12/). It adds independently implemented numerical checks, a matched tuned-ramp benchmark, financial decision thresholds and reviewed source evidence. Follow that folder's README to reproduce the current analysis.
@@ -114,5 +119,6 @@ Release text files use canonical LF line endings. CSV writers specify LF explici
 ## Portable release contents
 
 This release contains derived evidence ledgers, the analysis code and tests, generated results and figures, and verified citation metadata. It intentionally omits full-text PDFs/HTML, evidence screenshots, archival literature-preparation scripts and review-working files. Acquisition can retrieve sources, but remote bytes may change; original source hashes are retained in source_manifest.csv. The numerical analysis runs from the included processed files without downloads. Citation registries contain only the final manuscript bibliography, supplied as verified metadata rather than a rerunnable literature-search pipeline. Public availability of a source is not represented as a redistribution licence.
+
 
 
