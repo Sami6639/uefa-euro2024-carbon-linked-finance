@@ -1430,5 +1430,9 @@
     "table_cells": 121,
     "table_cells_passed": 121
   },
-  "scope": "Final document identity and output mapping; earlier numerical execution reused, not rerun for this publication."
+  "scope": "Historical artifact and output checks for the earlier document identities shown here. The numerical results remain unchanged. Current document identities and 29 delta checks are in document_revalidation.json; the earlier SI object count of 10 is not the current count of 18.",
+  "audited_document_sha256": {
+    "08_Final_Clean_Manuscript.docx": "1af7efe8f134787c5967691518b7f209262222cb53a9d5bbb12500b987eaf12d",
+    "Supplementary_Information.docx": "4a96ebe9e171d9adb080f88cff632bf030f83fcbde9447ac6f53c26ac35491d7"
+  }
 }

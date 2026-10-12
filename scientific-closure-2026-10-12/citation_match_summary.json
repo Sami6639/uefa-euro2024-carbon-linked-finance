@@ -1,5 +1,5 @@
 {
-  "sha256": "1af7efe8f134787c5967691518b7f209262222cb53a9d5bbb12500b987eaf12d",
+  "sha256": "f1105c415d74f3da5b7c41eb779589caaa43dfb695fa26cf69ae52ea4a0243ca",
   "reference_count": 33,
   "all_references_cited": true,
   "unique_matching_references": true,
@@ -8,6 +8,175 @@
     {
       "author": "Wang et al. (2024)",
       "reason": "Unnecessary detailed primary-content dependency removed; supported Cavallin boundary statement retained."
+    }
+  ],
+  "location_scheme": "1-based python-docx body paragraphs and table/row positions; do not confuse with previous flattened block indices",
+  "reconciliation": "All 33 reference entries remain verbatim at the same paragraph positions; existing author-year citation locations retained. Lo p19 now contains a theorem locator and p20 explicitly names the theorem; SI p11/Table S4a add final-publisher locators. No new reference entry introduced.",
+  "reference_identity_checks": [
+    {
+      "reference_id": "R01",
+      "paragraph": 135,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R02",
+      "paragraph": 136,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R03",
+      "paragraph": 137,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R04",
+      "paragraph": 138,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R05",
+      "paragraph": 139,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R06",
+      "paragraph": 140,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R07",
+      "paragraph": 141,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R08",
+      "paragraph": 142,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R09",
+      "paragraph": 143,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R10",
+      "paragraph": 144,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R11",
+      "paragraph": 145,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R12",
+      "paragraph": 146,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R13",
+      "paragraph": 147,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R14",
+      "paragraph": 148,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R15",
+      "paragraph": 149,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R16",
+      "paragraph": 150,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R17",
+      "paragraph": 151,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R18",
+      "paragraph": 152,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R19",
+      "paragraph": 153,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R20",
+      "paragraph": 154,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R21",
+      "paragraph": 155,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R22",
+      "paragraph": 156,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R23",
+      "paragraph": 157,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R24",
+      "paragraph": 158,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R25",
+      "paragraph": 159,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R26",
+      "paragraph": 160,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R27",
+      "paragraph": 161,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R28",
+      "paragraph": 162,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R29",
+      "paragraph": 163,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R30",
+      "paragraph": 164,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R32",
+      "paragraph": 165,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R33",
+      "paragraph": 166,
+      "reference_entry_identical": true
+    },
+    {
+      "reference_id": "R34",
+      "paragraph": 167,
+      "reference_entry_identical": true
     }
   ]
 }

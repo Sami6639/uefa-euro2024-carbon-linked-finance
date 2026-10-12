@@ -2,7 +2,7 @@
 
 ## Final scientific closure records (12 October 2026)
 
-See [scientific-closure-2026-10-12](scientific-closure-2026-10-12/README.md) for the final source–citation records, bounded scientific consistency results, and final document SHA-256 identities. The underlying calculations and prior revision package are unchanged. Full manuscript and supplement files are excluded; source-access and novelty limits are stated in the closure record.
+See [scientific-closure-2026-10-12](scientific-closure-2026-10-12/README.md) for the final source–citation records, bounded scientific consistency results, and final document SHA-256 identities. The underlying calculations and prior revision package are unchanged. Full manuscript and supplement files are excluded; source-access and novelty limits are stated in the closure record. The latest closure update records the incorporated Lo (2017) final-theorem comparison, 7,935 inclusive manuscript words, and 29 passing document-delta checks.
 
 
 ## Current reproducibility revision: 12 October 2026

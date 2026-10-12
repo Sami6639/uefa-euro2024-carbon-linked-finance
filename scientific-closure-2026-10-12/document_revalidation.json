@@ -1,0 +1,145 @@
+{
+  "version": "2.1.0",
+  "date": "2026-10-12",
+  "status": "PASS",
+  "final_docx_sha256": {
+    "08_Final_Clean_Manuscript.docx": "f1105c415d74f3da5b7c41eb779589caaa43dfb695fa26cf69ae52ea4a0243ca",
+    "Supplementary_Information.docx": "de5b8f58003fb17b0320654076616c3bf1d0438d5f27bc7231303e82523d78ac"
+  },
+  "prior_closure_commit": "8e65649cf9870075a51fe3271111e5acf503bb96",
+  "formal_register_entries": 30,
+  "formal_register_pass_entries": 30,
+  "reason": "No scientific equation, assumption, boundary result, scenario or calculation changed. Literature attribution tightened; eight existing inline formulas reencoded natively. Existing 30-entry proof register remains applicable to these final hashes.",
+  "rerun_scope": "Read-only final-content and identity checks only; no numerical model rerun or new theorem.",
+  "document_checks": [
+    {
+      "check": "08_Final_Clean_Manuscript.docx images unchanged",
+      "passed": true
+    },
+    {
+      "check": "Main native OMML byte-canonical identity",
+      "passed": true
+    },
+    {
+      "check": "08_Final_Clean_Manuscript.docx table count unchanged",
+      "passed": true
+    },
+    {
+      "check": "08_Final_Clean_Manuscript.docx table 1 exact text identity",
+      "passed": true
+    },
+    {
+      "check": "08_Final_Clean_Manuscript.docx table 2 exact text identity",
+      "passed": true
+    },
+    {
+      "check": "08_Final_Clean_Manuscript.docx table 3 exact text identity",
+      "passed": true
+    },
+    {
+      "check": "08_Final_Clean_Manuscript.docx table 4 exact text identity",
+      "passed": true
+    },
+    {
+      "check": "08_Final_Clean_Manuscript.docx table 5 exact text identity",
+      "passed": true
+    },
+    {
+      "check": "08_Final_Clean_Manuscript.docx no tracked changes or comment markers",
+      "passed": true
+    },
+    {
+      "check": "Bibliography unchanged",
+      "passed": true
+    },
+    {
+      "check": "Exactly 33 reference entries",
+      "passed": true
+    },
+    {
+      "check": "Abstract exactly 150 words",
+      "passed": true
+    },
+    {
+      "check": "Inclusive body under 8000 words",
+      "passed": true
+    },
+    {
+      "check": "Abstract exactly unchanged",
+      "passed": true
+    },
+    {
+      "check": "All baseline reference keys still cited",
+      "passed": true
+    },
+    {
+      "check": "Supplementary_Information.docx images unchanged",
+      "passed": true
+    },
+    {
+      "check": "SI retains all original native OMML",
+      "passed": true
+    },
+    {
+      "check": "SI C0 is encoded with native zero subscript",
+      "passed": true
+    },
+    {
+      "check": "SI eight new OMML strings semantically match inherited formulas",
+      "passed": true
+    },
+    {
+      "check": "SI inherited slope and reserve statement semantically identical",
+      "passed": true
+    },
+    {
+      "check": "SI certificate attribution includes independent payment span",
+      "passed": true
+    },
+    {
+      "check": "Supplementary_Information.docx table count unchanged",
+      "passed": true
+    },
+    {
+      "check": "Supplementary_Information.docx table 1 exact text identity",
+      "passed": true
+    },
+    {
+      "check": "Supplementary_Information.docx table 2 exact text identity",
+      "passed": true
+    },
+    {
+      "check": "Supplementary_Information.docx table 3 exact text identity",
+      "passed": true
+    },
+    {
+      "check": "Supplementary_Information.docx table 4 exact text identity",
+      "passed": true
+    },
+    {
+      "check": "Supplementary_Information.docx table 6 exact text identity",
+      "passed": true
+    },
+    {
+      "check": "Supplementary_Information.docx table 7 exact text identity",
+      "passed": true
+    },
+    {
+      "check": "Supplementary_Information.docx no tracked changes or comment markers",
+      "passed": true
+    }
+  ],
+  "checks_passed": 29,
+  "checks_total": 29,
+  "main_native_math_objects": 178,
+  "SI_native_math_objects": 18,
+  "SI_existing_math_objects_preserved": 10,
+  "SI_equivalent_inline_math_objects_added": 8,
+  "source_reuse_boundary": "The other 32 reference evidence records and all 36 institutional records are preserved from the earlier source audit, not represented as new full-text retrieval or a second primary-source visual audit.",
+  "remaining_access_boundaries": [
+    "Jewitt: final abstract/metadata; earlier two-author version cannot certify final three-author theorem assumptions.",
+    "Cheung: final preview/metadata; no final readable full theorem text.",
+    "Other abstract/indexed/author-manuscript levels remain explicit in individual source records."
+  ],
+  "evidence_boundary": "AI-assisted consistency checks; no external human endorsement or exhaustive novelty certification."
+}

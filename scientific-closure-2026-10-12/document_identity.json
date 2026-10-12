@@ -1,25 +1,26 @@
 {
+  "version": "2.1.0",
   "date": "2026-10-12",
   "documents": [
     {
       "file": "08_Final_Clean_Manuscript.docx",
-      "sha256": "1af7efe8f134787c5967691518b7f209262222cb53a9d5bbb12500b987eaf12d",
-      "bytes": 594278,
+      "sha256": "f1105c415d74f3da5b7c41eb779589caaa43dfb695fa26cf69ae52ea4a0243ca",
+      "bytes": 594346,
+      "native_math_objects": 178,
       "pages": 21
     },
     {
       "file": "Supplementary_Information.docx",
-      "sha256": "4a96ebe9e171d9adb080f88cff632bf030f83fcbde9447ac6f53c26ac35491d7",
-      "bytes": 45955,
+      "sha256": "de5b8f58003fb17b0320654076616c3bf1d0438d5f27bc7231303e82523d78ac",
+      "bytes": 46237,
+      "native_math_objects": 18,
       "pages": 6
     }
   ],
   "main_abstract_words": 150,
-  "main_inclusive_words_excluding_references_with_native_math": 7926,
-  "main_ordinary_text_words_excluding_references": 7825,
+  "main_inclusive_words_excluding_references_with_native_math": 7935,
   "matched_references": 33,
-  "main_native_math_objects": 178,
-  "SI_native_math_objects": 10,
   "main_embedded_figures": 4,
+  "scope": "Identity of actual final edited documents; no claim that these binaries are at the earlier computational commit.",
   "document_binaries_included": false
 }

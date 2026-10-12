@@ -1,13 +1,14 @@
 {
   "date": "2026-10-12",
-  "main_sha256": "1af7efe8f134787c5967691518b7f209262222cb53a9d5bbb12500b987eaf12d",
-  "SI_sha256": "4a96ebe9e171d9adb080f88cff632bf030f83fcbde9447ac6f53c26ac35491d7",
+  "main_sha256": "f1105c415d74f3da5b7c41eb779589caaa43dfb695fa26cf69ae52ea4a0243ca",
+  "SI_sha256": "de5b8f58003fb17b0320654076616c3bf1d0438d5f27bc7231303e82523d78ac",
   "reference_count": 33,
   "A01": "Closed for explicit analytical specialisation; exhaustive final-antecedent theorem exclusion unverified and unclaimed",
   "A03": "Closed for retained primary documentary claims and explicit unknowns",
   "A04": "Closed for retained claims at source-specific access levels; 33/33 matches, unnecessary Wang dependency removed",
   "C03": "Dated complete cash-flow case unavailable; unobserved status preserved",
-  "provenance": "Earlier same-day primary/PDF visual audits reused; targeted new source-content checks documented separately; final main/SI semantic integration verified here",
+  "provenance": "Lo final-source verification and current-document reconciliation added; other 32 reference evidence records and all 36 institutional records reused. No numerical rerun.",
   "limits": "No external human endorsement; no universal full-text certification; no visual Word-layout certification by this source audit",
-  "scope": "Evidence closure for retained, deliberately bounded claims; source-specific access limits remain operative."
+  "scope": "Evidence closure for retained, deliberately bounded claims; source-specific access limits remain operative.",
+  "Lo_final_source_update": "Final publisher Theorem 3.2 p.480, Remark 3.3(iii) p.483 and Proposition 4.1 pp.484–485 checked. A single integral inequality may be slack or binding; an externally mandated equality and the present two-reserve/payment-span certificate are distinct. No new general allocation method claimed."
 }
